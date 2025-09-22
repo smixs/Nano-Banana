@@ -2,13 +2,6 @@
 
 <img src="images/logo.jpg"  alt="输入图片"> 
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE) 
-[![Китайский](https://img.shields.io/badge/Китайский-Нажмите_для_просмотра-orange)](README.md)
-[![Английский](https://img.shields.io/badge/Английский-Нажмите_для_просмотра-yellow)](README_en.md)
-[![Японский](https://img.shields.io/badge/Японский-Нажмите_для_просмотра-green)](README_ja.md)
-[![Корейский](https://img.shields.io/badge/Корейский-Нажмите_для_просмотра-blue)](README_kr.md)
-[![Турецкий](https://img.shields.io/badge/Турецкий-Нажмите_для_просмотра-red)](README_tr.md)
-
 </div>
 
 
