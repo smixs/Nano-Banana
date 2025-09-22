@@ -3,1731 +3,1763 @@
 <img src="images/logo.jpg"  alt="输入图片"> 
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE) 
-[![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](README.md)
-[![English](https://img.shields.io/badge/English-Click_to_View-yellow)](README_en.md)
-[![Japanese](https://img.shields.io/badge/日本語-クリックして表示-green)](README_ja.md)
-[![Korean](https://img.shields.io/badge/한국어-눌러서_보기-blue)](README_kr.md)
-[![Turkish](https://img.shields.io/badge/Türkçe-Görüntülemek_için_Tıklayın-red)](README_tr.md)
+[![Китайский](https://img.shields.io/badge/Китайский-Нажмите_для_просмотра-orange)](README.md)
+[![Английский](https://img.shields.io/badge/Английский-Нажмите_для_просмотра-yellow)](README_en.md)
+[![Японский](https://img.shields.io/badge/Японский-Нажмите_для_просмотра-green)](README_ja.md)
+[![Корейский](https://img.shields.io/badge/Корейский-Нажмите_для_просмотра-blue)](README_kr.md)
+[![Турецкий](https://img.shields.io/badge/Турецкий-Нажмите_для_просмотра-red)](README_tr.md)
 
 </div>
 
 > [!NOTE]
-> 我们提出 Nano-consistent-150k——首个基于 Nano-Banana 构建、规模超过 150k 的高质量数据集，专为在多样而复杂的编辑场景中保持人物身份一致性而设计。其一大特点是卓越的身份一致性：针对同一人像，我们在多种任务与指令下提供了 35 种以上不同的编辑结果。以一致的人物身份为锚点，该数据集使得围绕同一主体在多种编辑任务、指令与模态之间无缝衔接的交错（interleaved）数据构建成为可能。
-<a href='https://picotrex.github.io/Awesome-Nano-Banana-images/'><img src='https://img.shields.io/badge/🌐 Website-Blog-orange' height="25"></a>
-<a href='https://huggingface.co/datasets/Yejy53/Nano-consistent-150k'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
+> Мы представляем Nano-consistent-150k — первый набор данных, созданный с использованием Nano-Banana, который содержит более 150 тысяч высококачественных образцов и уникально разработан для сохранения постоянной идентичности человека в разнообразных и сложных сценариях редактирования. Ключевой особенностью является его поразительная согласованность идентичности: для одного портрета предоставляется более 35 различных результатов редактирования по разнообразным задачам и инструкциям. Опираясь на постоянные человеческие идентичности, набор данных позволяет создавать чередующиеся данные, которые бесшовно связывают несколько задач редактирования, инструкций и модальностей вокруг одного и того же человека.
+<a href='https://picotrex.github.io/Awesome-Nano-Banana-images/'><img src='https://img.shields.io/badge/🌐%20Веб-сайт-Блог-orange' height="25"></a>
+<a href='https://huggingface.co/datasets/Yejy53/Nano-consistent-150k'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Набор%20данных-yellow' height="25"></a>
 
-## 🍌 Introduction
+## 🍌 Введение
 
-欢迎来到 Nano-banana 精选图片库！🤗 
+Добро пожаловать в галерею изображений, созданных с помощью Nano-banana! 🤗 
 
-**我们收集了Nano-banana在各个任务场景下生成的令人惊艳的图片和提示词**，全方位展示Google在图像生成与编辑的无限可能。希望能帮助你更好地了解Nano-banana。快一起解锁 Nano-banana 的多图融合与创意编辑力量吧！✨
+**Мы собрали потрясающие изображения и промпты, сгенерированные Nano-banana в различных сценариях**, чтобы всесторонне продемонстрировать безграничные возможности Google в области генерации и редактирования изображений. Надеемся, это поможет вам лучше понять Nano-banana. Давайте вместе раскроем мощь Nano-banana в слиянии нескольких изображений и творческом редактировании! ✨
 
-这些案例主要来源于Twitter/ X 🐦、小红书📕等自媒体平台。
+Эти примеры в основном взяты из Twitter/X 🐦, Xiaohongshu 📕 и других социальных медиа-платформ.
 
-喜欢就点 ⭐ Star 收藏起来吧！
+Если вам понравилось, пожалуйста, отметьте репозиторий ⭐ звездочкой, чтобы добавить его в закладки!
 
-## 📰 News
+## 📰 Новости
 
-- **2025年9月18日：** 我们发布了 [**Nano-consistent-150k**](https://picotrex.github.io/Awesome-Nano-Banana-images/) 数据集
-- **2025年9月16日：** 4️⃣ 第四次仓库更新
-- **2025年9月9日：** 3️⃣ 第三次仓库更新
-- **2025年9月3日：** 2️⃣ 第二次仓库更新
-- **2025年8月28日：** 🎉 1️⃣ ${\color{red} 第一次\ Awesome-Nano-Banana-images \ 更新!}$
+- **18 сентября 2025:** Мы выпустили набор данных **Nano-consistent-150k**.
+- **16 сентября 2025:** 4️⃣ Четвертое обновление репозитория
+- **9 сентября 2025:** 3️⃣ Третье обновление репозитория
+- **3 сентября 2025:** 2️⃣ Второе обновление репозитория
+- **28 августа 2025:** 🎉 1️⃣ ${\color{red} Первое\ обновление\ Awesome-Nano-Banana-images!}$
 
-## 📑 Menu
+## 📑 Содержание
 
-- [🍌 Introduction](#-introduction)
-- [📰 News](#-news)
-- [📑 Menu](#-menu)
-- [🖼️ 例子](#️-例子)
-  - [例 1: 插画变手办（by @ZHO\_ZHO\_ZHO）](#例-1-插画变手办by-zho_zho_zho)
-  - [例 2: 根据地图箭头生成地面视角图片（by @tokumin）](#例-2-根据地图箭头生成地面视角图片by-tokumin)
-  - [例 3: 真实世界的AR信息化（by @bilawalsidhu）](#例-3-真实世界的ar信息化by-bilawalsidhu)
-  - [例 4: 分离出3D建筑/制作等距模型（by @Zieeett）](#例-4-分离出3d建筑制作等距模型by-zieeett)
-  - [例 5: 不同时代自己的照片（by @AmirMushich）](#例-5-不同时代自己的照片by-amirmushich)
-  - [例 6: 多参考图像生成（by @MrDavids1）](#例-6-多参考图像生成by-mrdavids1)
-  - [例 7: 自动修图（by @op7418）](#例-7-自动修图by-op7418)
-  - [例 8: 手绘图控制多角色姿态（by @op7418）](#例-8-手绘图控制多角色姿态by-op7418)
-  - [例 9: 跨视角图像生成（by @op7418）](#例-9-跨视角图像生成by-op7418)
-  - [例 10: 定制人物贴纸（by @op7418）](#例-10-定制人物贴纸by-op7418)
-  - [例 11: 动漫转真人Coser（by @ZHO\_ZHO\_ZHO）](#例-11-动漫转真人coserby-zho_zho_zho)
-  - [例 12: 生成角色设定（by @ZHO\_ZHO\_ZHO）](#例-12-生成角色设定by-zho_zho_zho)
-  - [例 13: 色卡线稿上色（by @ZHO\_ZHO\_ZHO）](#例-13-色卡线稿上色by-zho_zho_zho)
-  - [例 14: 文章信息图（by @黄建同学）](#例-14-文章信息图by-黄建同学)
-  - [例 15: 更换多种发型（by @balconychy）](#例-15-更换多种发型by-balconychy)
-  - [例 16: 模型标注讲解图（by @berryxia\_ai）](#例-16-模型标注讲解图by-berryxia_ai)
-  - [例 17: 定制大理石雕塑（by @umesh\_ai）](#例-17-定制大理石雕塑by-umesh_ai)
-  - [例 18: 根据食材做菜（by @Gdgtify）](#例-18-根据食材做菜by-gdgtify)
-  - [例 19: 数学题推理（by @Gorden Sun）](#例-19-数学题推理by-gorden-sun)
-  - [例 20: 旧照片上色（by @GeminiApp）](#例-20-旧照片上色by-geminiapp)
-  - [例 21: OOTD穿搭（by @302.AI）](#例-21-ootd穿搭by-302ai)
-  - [例 22: 人物换衣（by @skirano）](#例-22-人物换衣by-skirano)
-  - [例 23: 多视图结果生成（by @Error\_HTTP\_404）](#例-23-多视图结果生成by-error_http_404)
-  - [例 24: 电影分镜（by @GeminiApp）](#例-24-电影分镜by-geminiapp)
-  - [例 25: 人物姿势修改（by @arrakis\_ai）](#例-25-人物姿势修改by-arrakis_ai)
-  - [例 26: 线稿图生成图像（by @ZHO\_ZHO\_ZHO）](#例-26-线稿图生成图像by-zho_zho_zho)
-  - [例 27: 为图像添加水印（by @AiMachete）](#例-27-为图像添加水印by-aimachete)
-  - [例 28: 知识推理生成图像（by @icreatelife）](#例-28-知识推理生成图像by-icreatelife)
-  - [例 29: 红笔批注（by @AiMachete）](#例-29-红笔批注by-aimachete)
-  - [例 30: 爆炸的食物（by @icreatelife）](#例-30-爆炸的食物by-icreatelife)
-  - [例 31: 制作漫画书（by @icreatelife）](#例-31-制作漫画书by-icreatelife)
-  - [例 32: 动作人偶（by @icreatelife）](#例-32-动作人偶by-icreatelife)
-  - [例 33: 地图生成等距建筑（by @demishassabis）](#例-33-地图生成等距建筑by-demishassabis)
-  - [例 34: 参考图控制人物表情（by @ZHO\_ZHO\_ZHO）](#例-34-参考图控制人物表情by-zho_zho_zho)
-  - [例 35: 插画绘画过程四格（by @ZHO\_ZHO\_ZHO）](#例-35-插画绘画过程四格by-zho_zho_zho)
-  - [例 36: 虚拟试妆（by @ZHO\_ZHO\_ZHO）](#例-36-虚拟试妆by-zho_zho_zho)
-  - [例 37: 妆面分析（by @ZHO\_ZHO\_ZHO）](#例-37-妆面分析by-zho_zho_zho)
-  - [例 38: Google地图视角下的中土世界（by @TechHallo）](#例-38-google地图视角下的中土世界by-techhallo)
-  - [例 39: 印刷插画生成（by @Umesh）](#例-39-印刷插画生成by-umesh)
-  - [例 40: 超多人物姿势生成（by @tapehead\_Lab）](#例-40-超多人物姿势生成by-tapehead_lab)
-  - [例 41: 物品包装生成（by @ZHO\_ZHO\_ZHO）](#例-41-物品包装生成by-zho_zho_zho)
-  - [例 42: 叠加滤镜/材质（by @ZHO\_ZHO\_ZHO）](#例-42-叠加滤镜材质by-zho_zho_zho)
-  - [例 43: 控制人物脸型（by @ZHO\_ZHO\_ZHO）](#例-43-控制人物脸型by-zho_zho_zho)
-  - [例 44: 光影控制（by @ZHO\_ZHO\_ZHO）](#例-44-光影控制by-zho_zho_zho)
-  - [例 45: 乐高玩具小人（by @ZHO\_ZHO\_ZHO）](#例-45-乐高玩具小人by-zho_zho_zho)
-  - [例 46: 高达模型小人（by @ZHO\_ZHO\_ZHO）](#例-46-高达模型小人by-zho_zho_zho)
-  - [例 47: 硬件拆解图（by @AIimagined）](#例-47-硬件拆解图by-aiimagined)
-  - [例 48: 食物卡路里标注（by @icreatelife）](#例-48-食物卡路里标注by-icreatelife)
-  - [例 49: 提取信息并放置透明图层（by @nglprz）](#例-49-提取信息并放置透明图层by-nglprz)
-  - [例 50: 图像外扩修复（by @bwabbage）](#例-50-图像外扩修复by-bwabbage)
-  - [例 51: 古老地图生成古代场景（by @levelsio）](#例-51-古老地图生成古代场景by-levelsio)
-  - [例 52: 时尚服装拼贴画（by @tetumemo）](#例-52-时尚服装拼贴画by-tetumemo)
-  - [例 53: 精致可爱的产品照片（by @azed\_ai）](#例-53-精致可爱的产品照片by-azed_ai)
-  - [例 54: 动漫雕像放入现实（by @riddi0908）](#例-54-动漫雕像放入现实by-riddi0908)
-  - [例 55: 痛车制作（by @riddi0908）](#例-55-痛车制作by-riddi0908)
-  - [例 56: 漫画构图（by @namaedousiyoka）](#例-56-漫画构图by-namaedousiyoka)
-  - [例 57: 漫画风格转换（by @nobisiro\_2023）](#例-57-漫画风格转换by-nobisiro_2023)
-  - [例 58: 等距全息投影图（by @tetumemo）](#例-58-等距全息投影图by-tetumemo)
-  - [例 59: Minecraft 风格场景生成（by @tetumemo）](#例-59-minecraft-风格场景生成by-tetumemo)
-  - [例 60: 材质球赋予材质（by @ZHO\_ZHO\_ZHO）](#例-60-材质球赋予材质by-zho_zho_zho)
-  - [例 61: 平面图3D渲染（by @op7418）](#例-61-平面图3d渲染by-op7418)
-  - [例 62: 重置相机参数（by @hckinz）](#例-62-重置相机参数by-hckinz)
-  - [例 63: 制作证件照（by @songguoxiansen）](#例-63-制作证件照by-songguoxiansen)
-  - [例 64: 场景 A6 折叠卡（by @Gdgtify）](#例-64-场景-a6-折叠卡by-gdgtify)
-  - [例 65: 设计国际象棋（by @Gdgtify）](#例-65-设计国际象棋by-gdgtify)
-  - [例 66: 分割对照样式照片（by @fofrAI）](#例-66-分割对照样式照片by-fofrai)
-  - [例 67: 珠宝首饰设计（by @Gdgtify）](#例-67-珠宝首饰设计by-gdgtify)
-  - [例 68: 周边设计（by @0xFramer）](#例-68-周边设计by-0xframer)
-  - [例69：模型全息投影（by @UNIBRACITY）](#例69模型全息投影by-unibracity)
-  - [例70： 巨型人物脚手架（by @songguoxiansen）](#例70-巨型人物脚手架by-songguoxiansen)
-  - [例71： 遥感影像建筑物提取（by @lehua555）](#例71-遥感影像建筑物提取by-lehua555)
-  - [例72： 部件提取（by @tetumemo）](#例72-部件提取by-tetumemo)
-  - [例73： 移除汉堡的配料（by @bind\_lux，本案例由@jeanlucaslima提供）](#例73-移除汉堡的配料by-bind_lux本案例由jeanlucaslima提供)
-  - [例74：图像高清修复（by @op7418）](#例74图像高清修复by-op7418)
-  - [例75：图片生成微缩场景（by @techhalla）](#例75图片生成微缩场景by-techhalla)
-  - [例76：科普漫画（by @op7418）](#例76科普漫画by-op7418)
-  - [例77：自定义人物的表情包生成（by @vista8）](#例77自定义人物的表情包生成by-vista8)
-  - [例78：恢复被吃了部分的食物（by @googlejapan）](#例78恢复被吃了部分的食物by-googlejapan)
-  - [例79：格斗游戏界面制作（by @NanoBanana\_labs）](#例79格斗游戏界面制作by-nanobanana_labs)
-  - [例80：切割模型（by @old\_pgmrs\_will）](#例80切割模型by-old_pgmrs_will)
-  - [例81：海盗通缉书（by @AI\_Kei75）](#例81海盗通缉书by-ai_kei75)
-  - [例82：周边展示货架（by @tokyo\_Valentine）](#例82周边展示货架by-tokyo_valentine)
-  - [例83：漫展展台（by @tokyo\_Valentine）](#例83漫展展台by-tokyo_valentine)
-  - [例84：线稿转涂鸦画（by @tokyo\_Valentine）](#例84线稿转涂鸦画by-tokyo_valentine)
-  - [例85：现代美术展览空间（by @UNIBRACITY）](#例85现代美术展览空间by-unibracity)
-  - [例86：暗黑哥特塔罗牌（by @ImperfectEngel）](#例86暗黑哥特塔罗牌by-imperfectengel)
-  - [例87：黑白进化图（by @ZHO\_ZHO\_ZHO）](#例87黑白进化图by-zho_zho_zho)
-  - [例88：玻璃瓶纪念品（by @NanoBanana\_labs）](#例88玻璃瓶纪念品by-nanobanana_labs)
-  - [例89：微型商店（by @NanoBanana\_labs）](#例89微型商店by-nanobanana_labs)
-  - [例90：成为Vtuber（by @AI\_Kei75）](#例90成为vtuberby-ai_kei75)
-  - [例91：车站电影海报（by @AI\_Kei75）](#例91车站电影海报by-ai_kei75)
-- [🙏 Acknowledge](#-acknowledge)
+- [🍌 Введение](#-introduction)
+- [📰 Новости](#-news)
+- [📑 Содержание](#-menu)
+- [🖼️ Примеры](#️-cases)
+  - [Пример 1: Из иллюстрации в фигурку（от @ZHO\_ZHO\_ZHO）](#case-1-illustration-to-figureby-zho_zho_zho)
+  - [Пример 2: Генерация вида с земли по стрелке на карте（от @tokumin）](#case-2-generate-ground-view-from-map-arrowby-tokumin)
+  - [Пример 3: Информация AR в реальном мире（от @bilawalsidhu）](#case-3-real-world-ar-informationby-bilawalsidhu)
+  - [Пример 4: Извлечение 3D-зданий/Создание изометрических моделей（от @Zieeett）](#case-4-extract-3d-buildingsmake-isometric-modelsby-zieeett)
+  - [Пример 5: Ваши фотографии в разные эпохи（от @AmirMushich）](#case-5-photos-of-yourself-in-different-erasby-amirmushich)
+  - [Пример 6: Генерация изображений по нескольким референсам（от @MrDavids1）](#case-6-multi-reference-image-generationby-mrdavids1)
+  - [Пример 7: Автоматическое редактирование фотографий（от @op7418）](#case-7-automatic-photo-editingby-op7418)
+  - [Пример 8: Управление позами нескольких персонажей с помощью рисунка от руки（от @op7418）](#case-8-hand-drawing-controls-multi-character-posesby-op7418)
+  - [Пример 9: Генерация изображения с другого ракурса（от @op7418）](#case-9-cross-view-image-generationby-op7418)
+  - [Пример 10: Пользовательские стикеры с персонажами（от @op7418）](#case-10-custom-character-stickersby-op7418)
+  - [Пример 11: Из аниме в реального косплеера（от @ZHO\_ZHO\_ZHO）](#case-11-anime-to-real-coserby-zho_zho_zho)
+  - [Пример 12: Генерация дизайна персонажа（от @ZHO\_ZHO\_ZHO）](#case-12-generate-character-designby-zho_zho_zho)
+  - [Пример 13: Раскрашивание контурного рисунка с использованием цветовой палитры（от @ZHO\_ZHO\_ZHO）](#case-13-color-line-art-with-color-paletteby-zho_zho_zho)
+  - [Пример 14: Инфографика для статьи（от @黄建同学）](#case-14-article-infographicby-黄建同学)
+  - [Пример 15: Смена нескольких причесок（от @balconychy）](#case-15-change-multiple-hairstylesby-balconychy)
+  - [Пример 16: Схема с аннотациями для объяснения модели（от @berryxia\_ai）](#case-16-model-annotation-explanation-diagramby-berryxia_ai)
+  - [Пример 17: Пользовательская мраморная скульптура（от @umesh\_ai）](#case-17-custom-marble-sculptureby-umesh_ai)
+  - [Пример 18: Приготовление блюда из имеющихся ингредиентов（от @Gdgtify）](#case-18-cook-based-on-ingredientsby-gdgtify)
+  - [Пример 19: Решение математической задачи（от @Gorden Sun）](#case-19-math-problem-reasoningby-gorden-sun)
+  - [Пример 20: Колоризация старой фотографии（от @GeminiApp）](#case-20-old-photo-colorizationby-geminiapp)
+  - [Пример 21: OOTD-образ (образ дня)（от @302.AI）](#case-21-ootd-outfitby-302ai)
+  - [Пример 22: Смена одежды персонажа（от @skirano）](#case-22-character-clothing-changeby-skirano)
+  - [Пример 23: Генерация результата с нескольких ракурсов（от @Error\_HTTP\_404）](#case-23-multi-view-result-generationby-error_http_404)
+  - [Пример 24: Раскадровка для фильма（от @GeminiApp）](#case-24-movie-storyboardby-geminiapp)
+  - [Пример 25: Изменение позы персонажа（от @arrakis\_ai）](#case-25-character-pose-modificationby-arrakis_ai)
+  - [Пример 26: Генерация изображения из контурного рисунка（от @ZHO\_ZHO\_ZHO）](#case-26-generate-image-from-line-drawingby-zho_zho_zho)
+  - [Пример 27: Добавление водяного знака на изображение（от @AiMachete）](#case-27-add-watermark-to-imageby-aimachete)
+  - [Пример 28: Генерация изображения на основе логических рассуждений（от @icreatelife）](#case-28-knowledge-reasoning-image-generationby-icreatelife)
+  - [Пример 29: Аннотации красной ручкой（от @AiMachete）](#case-29-red-pen-annotationsby-aimachete)
+  - [Пример 30: "Взрывная" еда（от @icreatelife）](#case-30-explosive-foodby-icreatelife)
+  - [Пример 31: Создание комикса（от @icreatelife）](#case-31-create-comic-bookby-icreatelife)
+  - [Пример 32: Экшен-фигурка（от @icreatelife）](#case-32-action-figureby-icreatelife)
+  - [Пример 33: Из карты в изометрические здания（от @demishassabis）](#case-33-map-to-isometric-buildingsby-demishassabis)
+  - [Пример 34: Управление выражением лица персонажа с помощью референсного изображения（от @ZHO\_ZHO\_ZHO）](#case-34-reference-image-controls-character-expressionby-zho_zho_zho)
+  - [Пример 35: Четырехпанельный процесс рисования иллюстрации（от @ZHO\_ZHO\_ZHO）](#case-35-illustration-drawing-process-four-panelby-zho_zho_zho)
+  - [Пример 36: Виртуальная примерка макияжа（от @ZHO\_ZHO\_ZHO）](#case-36-virtual-makeup-try-onby-zho_zho_zho)
+  - [Пример 37: Анализ макияжа（от @ZHO\_ZHO\_ZHO）](#case-37-makeup-analysisby-zho_zho_zho)
+  - [Пример 38: Вид Средиземья в Google Maps（от @TechHallo）](#case-38-google-maps-view-of-middle-earthby-techhallo)
+  - [Пример 39: Генерация типографической иллюстрации（от @Umesh）](#case-39-typographic-illustration-generationby-umesh)
+  - [Пример 40: Генерация нескольких поз персонажа（от @tapehead\_Lab）](#case-40-multiple-character-poses-generationby-tapehead_lab)
+  - [Пример 41: Генерация упаковки продукта（от @ZHO\_ZHO\_ZHO）](#case-41-product-packaging-generationby-zho_zho_zho)
+  - [Пример 42: Наложение фильтра/материала（от @ZHO\_ZHO\_ZHO）](#case-42-overlay-filtermaterialby-zho_zho_zho)
+  - [Пример 43: Управление формой лица персонажа（от @ZHO\_ZHO\_ZHO）](#case-43-control-character-face-shapeby-zho_zho_zho)
+  - [Пример 44: Управление освещением（от @ZHO\_ZHO\_ZHO）](#case-44-lighting-controlby-zho_zho_zho)
+  - [Пример 45: Минифигурка LEGO（от @ZHO\_ZHO\_ZHO）](#case-45-lego-minifigureby-zho_zho_zho)
+  - [Пример 46: Модель-фигурка Gundam（от @ZHO\_ZHO\_ZHO）](#case-46-gundam-model-figureby-zho_zho_zho)
+  - [Пример 47: Схема-взрыв устройства（от @AIimagined）](#case-47-hardware-exploded-viewby-aiimagined)
+  - [Пример 48: Аннотация калорийности еды（от @icreatelife）](#case-48-food-calorie-annotationby-icreatelife)
+  - [Пример 49: Извлечение объекта и размещение на прозрачном слое（от @nglprz）](#case-49-extract-subject-and-place-on-transparent-layerby-nglprz)
+  - [Пример 50: Восстановление изображения (Outpainting)（от @bwabbage）](#case-50-image-outpainting-repairby-bwabbage)
+  - [Пример 51: Старая карта → Фотография исторической сцены（от @levelsio）](#case-51-ancient-map--historical-scene-photoby-levelsio)
+  - [Пример 52: Коллаж-мудборд моды（от @tetumemo）](#case-52-fashion-moodboard-collageby-tetumemo)
+  - [Пример 53: Изящное и милое фото продукта（от @azed\_ai）](#case-53-delicate-cute-product-photoby-azed_ai)
+  - [Пример 54: Размещение аниме-статуи в реальной жизни（от @riddi0908）](#case-54-place-anime-statue-in-real-lifeby-riddi0908)
+  - [Пример 55: Создание автомобиля-итася（от @riddi0908）](#case-55-create-an-itasha-carby-riddi0908)
+  - [Пример 56: Композиция в стиле манги（от @namaedousiyoka）](#case-56-manga-compositionby-namaedousiyoka)
+  - [Пример 57: Преобразование в стиль манги（от @nobisiro\_2023）](#case-57-manga-style-conversionby-nobisiro_2023)
+  - [Пример 58: Изометрический голографический каркас（от @tetumemo）](#case-58-isometric-holographic-wireframeby-tetumemo)
+  - [Пример 59: Генерация сцены в стиле Minecraft（от @tetumemo）](#case-59-minecraft-style-scene-generationby-tetumemo)
+  - [Пример 60: Применение сферы с материалом к логотипу（от @ZHO\_ZHO\_ZHO）](#case-60-apply-material-sphere-to-logoby-zho_zho_zho)
+  - [Пример 61: 3D-рендер плана этажа（от @op7418）](#case-61-floor-plan-3d-renderby-op7418)
+  - [Пример 62: Сброс параметров камеры（от @hckinz）](#case-62-reset-camera-parametersby-hckinz)
+  - [Пример 63: Создание фото на документы（от @songguoxiansen）](#case-63-create-an-id-photoby-songguoxiansen)
+  - [Пример 64: Складная открытка A6 со сценой（от @Gdgtify）](#case-64-scene-a6-folding-cardby-gdgtify)
+  - [Пример 65: Дизайн шахматного набора（от @Gdgtify）](#case-65-design-a-chess-setby-gdgtify)
+  - [Пример 66: Фото в стиле разделенного контраста（от @fofrAI）](#case-66-split-contrast-style-photoby-fofrai)
+  - [Пример 67: Дизайн ювелирной коллекции（от @Gdgtify）](#case-67-jewelry-collection-designby-gdgtify)
+  - [Пример 68: Дизайн мерчандайза（от @0xFramer）](#case-68-merchandise-designby-0xframer)
+  - [Пример 69: Голографическая проекция модели (от @UNIBRACITY)](#example-69-model-holographic-projection-by-unibracity)
+  - [Пример 70: Гигантская фигура в строительных лесах (от @songguoxiansen)](#example-70-giant-figure-scaffolding-by-songguoxiansen)
+  - [Пример 71: Извлечение зданий из спутникового снимка (от @lehua555)](#example-71-building-extraction-from-remote-sensing-image-by-lehua555)
+  - [Пример 72: Извлечение компонентов (от @tetumemo)](#example-72-component-extraction-by-tetumemo)
+  - [Пример 73: Удаление ингредиентов из бургера (от @bind\_lux, пример предоставлен @jeanlucaslima)](#example-73-remove-burger-ingredients-by-bind_lux-case-provided-by-jeanlucaslima)
+  - [Пример 74: Восстановление изображения в высоком разрешении (от @op7418)](#example-74-high-resolution-image-restoration-by-op7418)
+  - [Пример 75: Генерация миниатюрной сцены из изображения (от @techhalla)](#example-75-generate-miniature-scene-from-image-by-techhalla)
+  - [Пример 76: Обучающий комикс (от @op7418)](#example-76-educational-comic-by-op7418)
+  - [Пример 77: Генерация набора эмодзи с пользовательским персонажем (от @vista8)](#example-77-custom-character-emoji-pack-generation-by-vista8)
+  - [Пример 78: Восстановление частично съеденной еды (от @googlejapan)](#example-78-restore-partially-eaten-food-by-googlejapan)
+  - [Пример 79: Создание интерфейса файтинга (от @NanoBanana\_labs)](#example-79-fighting-game-interface-creation-by-nanobanana_labs)
+  - [Пример 80: Модель в разрезе (от @old\_pgmrs\_will)](#example-80-model-cross-section-by-old_pgmrs_will)
+  - [Пример 81: Плакат о розыске пирата (от @AI\_Kei75)](#example-81-pirate-wanted-poster-by-ai_kei75)
+  - [Пример 82: Полка с мерчандайзом (от @tokyo\_Valentine)](#example-82-merchandise-display-shelf-by-tokyo_valentine)
+  - [Пример 83: Стенд на конвенте комиксов (от @tokyo\_Valentine)](#example-83-comic-convention-booth-by-tokyo_valentine)
+  - [Пример 84: Преобразование контурного рисунка в детский рисунок (от @hAru\_mAki\_ch)](#example-84-line-art-to-doodle-drawing-by-haru_maki_ch)
+  - [Пример 85: Выставочное пространство современного искусства (от @UNIBRACITY)](#example-85-contemporary-art-exhibition-space-by-unibracity)
+  - [Пример 86: Темная готическая карта Таро (от @ImperfectEngel)](#example-86-dark-gothic-tarot-card-by-imperfectengel)
+  - [Пример 87: Черно-белая схема эволюции (от @ZHO\_ZHO\_ZHO)](#example-87-black-and-white-evolution-chart-by-zho_zho_zho)
+  - [Пример 88: Сувенир в стеклянной бутылке (от @NanoBanana\_labs)](#example-88-glass-bottle-souvenir-by-nanobanana_labs)
+  - [Пример 89: Миниатюрный магазин (от @NanoBanana\_labs)](#example-89-miniature-store-by-nanobanana_labs)
+  - [Пример 90: Стать Vtuber-ом (от @AI\_Kei75)](#example-90-become-a-vtuber-by-ai_kei75)
+  - [Пример 91: Постер фильма на вокзале (от @AI\_Kei75)](#example-91-train-station-movie-poster-by-ai_kei75)
+- [🙏 Благодарности](#-acknowledge)
 
-## 🖼️ 例子
+## 🖼️ Примеры
 
-<!-- 例 1: 插画变手办（by @ZHO_ZHO_ZHO） -->
-### 例 1: [插画变手办](https://x.com/ZHO_ZHO_ZHO/status/1958539464994959715)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+<!-- Case 1: Illustration to Figure (by @ZHO_ZHO_ZHO) -->
+### Пример 1: [Из иллюстрации в фигурку](https://x.com/ZHO_ZHO_ZHO/status/1958539464994959715)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case1/input0.jpg" width="200" alt="输入图片"> | <img src="images/case1/output0.jpg" width="200" alt="输出结果"> |
+| <img src="images/case1/input0.jpg" width="200" alt="Input Image"> | <img src="images/case1/output0.jpg" width="200" alt="Output Result"> |
 
-**输入:** 需上传一张参考图片作为生成手办的对象
 
-**提示词:**
+**ввод:** Необходимо загрузить референсное изображение в качестве объекта для создания фигурки
+
+**промпт:**
 
 ```
-将这张照片变成角色手办。在它后面放置一个印有角色图像的盒子，盒子上有一台电脑显示Blender建模过程。在盒子前面添加一个圆形塑料底座，角色手办站在上面。如果可能的话，将场景设置在室内
+преврати это фото в фигурку персонажа. Позади неё размести коробку с напечатанным изображением персонажа и компьютер, на экране которого показан процесс моделирования в Blender. Перед коробкой добавь круглое пластиковое основание, на котором стоит фигурка персонажа. по возможности установи сцену в помещении
 ```
 
-<!-- 例 2: 根据地图箭头生成地面视角图片（by @tokumin） -->
-### 例 2: [根据地图箭头生成地面视角图片](https://x.com/tokumin/status/**1960583251460022626**)（by [@tokumin](https://x.com/tokumin)）
+<!-- Case 2: Generate Ground View from Map Arrow (by @tokumin) -->
+### Пример 2: [Генерация вида с земли по стрелке на карте](https://x.com/tokumin/status/**1960583251460022626**)（от [@tokumin](https://x.com/tokumin)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case2/input.jpg" width="300" alt="输入图片"> | <img src="images/case2/output.jpg" width="300" alt="输出结果"> |
-| <img src="images/case2/input3.jpg" width="300" alt="输入图片"> | <img src="images/case2/output3.jpg" width="300" alt="输出结果"> |
-| <img src="images/case2/input2.jpg" width="300" alt="输入图片"> | <img src="images/case2/output2.jpg" width="300" alt="输出结果"> |
+| <img src="images/case2/input.jpg" width="300" alt="Input Image"> | <img src="images/case2/output.jpg" width="300" alt="Output Result"> |
+| <img src="images/case2/input3.jpg" width="300" alt="Input Image"> | <img src="images/case2/output3.jpg" width="300" alt="Output Result"> |
+| <img src="images/case2/input2.jpg" width="300" alt="Input Image"> | <img src="images/case2/output2.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需要上传一张包含红色箭头的google maps图像
+**ввод:** Необходимо загрузить изображение из Google Maps с красной стрелкой
 
-**提示词:**
+**промпт:**
 
 ```
-画出红色箭头看到的内容
-/
-从红色圆圈沿箭头方向画出真实世界的视角
+нарисуй то, что видит красная стрелка 
+/ 
+нарисуй вид реального мира из красного круга в направлении стрелки.
 ```
 
-<!-- 例 3: 真实世界的AR信息化（by @bilawalsidhu） -->
-### 例 3: [真实世界的AR信息化](https://x.com/bilawalsidhu/status/1960529167742853378)（by [@bilawalsidhu](https://x.com/bilawalsidhu)）
+<!-- Case 3: Real World AR Information (by @bilawalsidhu) -->
+### Пример 3: [Информация AR в реальном мире](https://x.com/bilawalsidhu/status/1960529167742853378)（от [@bilawalsidhu](https://x.com/bilawalsidhu)）
 
-| 输出 |
+| Вывод |
 |:---:|
-| <img src="images/case3/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case3/output.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需上传一张参考图像
+**ввод:** Необходимо загрузить референсное изображение
 
-**提示词:**
+**промпт:**
 
 ```
-你是一个基于位置的AR体验生成器。在这张图像中突出显示[兴趣点]并标注相关信息
+ты генератор AR-опыта на основе местоположения. выдели [достопримечательность] на этом изображении и добавь соответствующую информацию о ней.
 ```
 
 > [!NOTE]
-> **需要在提示词中 [POI] 输入需要标注的兴趣点**
+> **Необходимо указать в промпте [достопримечательность], которую нужно аннотировать**
 
-<!-- 例 4: 分离出3D建筑/制作等距模型（by @Zieeett） -->
-### 例 4: [分离出3D建筑/制作等距模型](https://x.com/Zieeett/status/1960420874806247762)（by [@Zieeett](https://x.com/Zieeett)）
+<!-- Case 4: Extract 3D Buildings/Make Isometric Models (by @Zieeett) -->
+### Пример 4: [Извлечение 3D-зданий/Создание изометрических моделей](https://x.com/Zieeett/status/1960420874806247762)（от [@Zieeett](https://x.com/Zieeett)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case4/input.jpg" width="300" alt="输入图片"> | <img src="images/case4/output.jpg" width="300" alt="输出结果"> |
-| <img src="images/case4/input2.jpg" width="300" alt="输入图片"> | <img src="images/case4/output2.jpg" width="300" alt="输出结果"> |
+| <img src="images/case4/input.jpg" width="300" alt="Input Image"> | <img src="images/case4/output.jpg" width="300" alt="Output Result"> |
+| <img src="images/case4/input2.jpg" width="300" alt="Input Image"> | <img src="images/case4/output2.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需上传一张包含对应物体的图像
+**ввод:** Необходимо загрузить изображение с соответствующим объектом
 
-**提示词:**
+**промпт:**
 
 ```
-将图像制作成白天和等距视图[仅限建筑]
+Сделай изображение дневным и изометрическим [Только здание]
 ```
 
 > [!NOTE]
-> **根据需要修改 [方括号] 内的信息（可以设置为车辆、人物等）**
+> **Измените информацию в [квадратных скобках] по мере необходимости (можно указать транспорт, людей и т.д.)**
 
-<!-- 例 5: 不同时代自己的照片（by @AmirMushich） -->
-### 例 5: [不同时代自己的照片](https://x.com/AmirMushich/status/1960810850224091439)（by [@AmirMushich](https://x.com/AmirMushich)）
+<!-- Case 5: Photos of Yourself in Different Eras (by @AmirMushich) -->
+### Пример 5: [Ваши фотографии в разные эпохи](https://x.com/AmirMushich/status/1960810850224091439)（от [@AmirMushich](https://x.com/AmirMushich)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case5/input.jpg" width="300" alt="输入图片"> | <img src="images/case5/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case5/input.jpg" width="300" alt="Input Image"> | <img src="images/case5/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张人物的照片
+**ввод:** Необходимо загрузить фотографию человека
 
-**提示词:**
+**промпт:**
 
 ```
-将角色的风格改为[1970]年代的经典[男性]风格
+Измени стиль персонажа на классический [мужской] стиль [1970-х]
 
-添加[长卷发]，
-[长胡子]，
-将背景改为标志性的[加州夏季风景]
+Добавь [длинные вьющиеся] волосы, 
+[длинные усы], 
+измени фон на знаковый [летний калифорнийский пейзаж]
 
-不要改变角色的面部
+Не меняй лицо персонажа
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为你的时代和细节信息**
+> **Измените текст в [квадратных скобках] на нужную вам эпоху и детали**
 
-<!-- 例 6: 多参考图像生成（by @MrDavids1） -->
-### 例 6: [多参考图像生成](https://x.com/MrDavids1/status/1960783672665128970)（by [@MrDavids1](https://x.com/MrDavids1)）
+<!-- Case 6: Multi-Reference Image Generation (by @MrDavids1) -->
+### Пример 6: [Генерация изображений по нескольким референсам](https://x.com/MrDavids1/status/1960783672665128970)（от [@MrDavids1](https://x.com/MrDavids1)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case6/input.jpg" width="300" alt="输入图片"> | <img src="images/case6/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case6/input.jpg" width="300" alt="Input Image"> | <img src="images/case6/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传多个参考图
+**ввод:** Необходимо загрузить несколько референсных изображений
 
-**提示词:**
+**промпт:**
 
 ```
-一个模特摆姿势靠在粉色宝马车上。她穿着以下物品，场景背景是浅灰色。绿色外星人是一个钥匙扣，挂在粉色手提包上。模特肩上还有一只粉色鹦鹉。旁边坐着一只戴着粉色项圈和金色耳机的哈巴狗
+Модель позирует, прислонившись к розовому BMW. На ней надеты следующие вещи, сцена на светло-сером фоне. Зеленый инопланетянин — это брелок, прикрепленный к розовой сумочке. У модели также на плече сидит розовый попугай. Рядом с ней сидит мопс в розовом ошейнике и золотых наушниках.
 ```
 
 > [!NOTE]
-> **提示词需要详细描述和包含多个参考对象**
+> **Промпт должен содержать подробное описание и включать несколько референсных объектов**
 
-<!-- 例 7: 自动修图（by @op7418） -->
-### 例 7: [自动修图](https://x.com/op7418/status/1960528616573558864)（by [@op7418](https://x.com/op7418)）
+<!-- Case 7: Automatic Photo Editing (by @op7418) -->
+### Пример 7: [Автоматическое редактирование фотографий](https://x.com/op7418/status/1960528616573558864)（от [@op7418](https://x.com/op7418)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case7/input.jpg" width="300" alt="输入图片"> | <img src="images/case7/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case7/input.jpg" width="300" alt="Input Image"> | <img src="images/case7/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张需要进行修正的图像
+**ввод:** Необходимо загрузить изображение, требующее коррекции
 
-**提示词:**
+**промпт:**
 
 ```
-这张照片很无聊很平淡。增强它！增加对比度，提升色彩，改善光线使其更丰富，你可以裁剪和删除影响构图的细节
+Это фото очень скучное и простое. Улучши его! Увеличь контраст, сделай цвета ярче и улучши освещение, чтобы сделать его насыщеннее. Ты можешь обрезать и удалить детали, которые влияют на композицию.
 ```
 
-<!-- 例 8: 手绘图控制多角色姿态（by @op7418） -->
-### 例 8: [手绘图控制多角色姿态](https://x.com/op7418/status/1960536717242573181)（by [@op7418](https://x.com/op7418)）
+<!-- Case 8: Hand Drawing Controls Multi-Character Poses (by @op7418) -->
+### Пример 8: [Управление позами нескольких персонажей с помощью рисунка от руки](https://x.com/op7418/status/1960536717242573181)（от [@op7418](https://x.com/op7418)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case8/input.jpg" width="300" alt="输入图片"> | <img src="images/case8/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case8/input.jpg" width="300" alt="Input Image"> | <img src="images/case8/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传角色的图像以及手绘草图
+**ввод:** Необходимо загрузить изображения персонажей и набросок от руки
 
-**提示词:**
+**промпт:**
 
 ```
-让这两个角色使用图3的姿势进行战斗。添加适当的视觉背景和场景互动，生成图像比例为16:9
+Пусть эти два персонажа сражаются, используя позу с Рисунка 3. Добавь подходящие визуальные фоны и взаимодействия со сценой. Соотношение сторон сгенерированного изображения — 16:9.
 ```
 
-<!-- 例 9: 跨视角图像生成（by @op7418） -->
-### 例 9: [跨视角图像生成](https://x.com/op7418/status/1960896630586310656)（by [@op7418](https://x.com/op7418)）
+<!-- Case 9: Cross-View Image Generation (by @op7418) -->
+### Пример 9: [Генерация изображения с другого ракурса](https://x.com/op7418/status/1960896630586310656)（от [@op7418](https://x.com/op7418)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case9/input.jpg" width="300" alt="输入图片"> | <img src="images/case9/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case9/input.jpg" width="300" alt="Input Image"> | <img src="images/case9/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张地面上拍摄的照片
+**ввод:** Необходимо загрузить фотографию, сделанную с земли
 
-**提示词:**
+**промпт:**
 
 ```
-将照片转换为俯视角度并标记摄影师的位置
+Преобразуй фотографию в вид сверху и отметь местоположение фотографа.
 ```
 
-<!-- 例 10: 定制人物贴纸（by @op7418） -->
-### 例 10: [定制人物贴纸](https://x.com/op7418/status/1960385812132192509)（by [@op7418](https://x.com/op7418)）
+<!-- Case 10: Custom Character Stickers (by @op7418) -->
+### Пример 10: [Пользовательские стикеры с персонажами](https://x.com/op7418/status/1960385812132192509)（от [@op7418](https://x.com/op7418)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case10/input.jpg" width="300" alt="输入图片"> | <img src="images/case10/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case10/input.jpg" width="300" alt="Input Image"> | <img src="images/case10/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张贴纸参考图以及一张人物图像
+**ввод:** Необходимо загрузить референсное изображение стикера и изображение персонажа
 
-**提示词:**
+**промпт:**
 
 ```
-帮我将角色变成类似图2的白色轮廓贴纸。角色需要转换成网页插画风格，并添加一个描述图1的俏皮白色轮廓短语
+Помоги мне превратить персонажа в стикер с белым контуром, похожий на Рисунок 2. Персонажа нужно преобразовать в стиль веб-иллюстрации и добавить игривую короткую фразу с белым контуром, описывающую Рисунок 1.
 ```
 
-<!-- 例 11: 动漫转真人Coser（by @ZHO_ZHO_ZHO） -->
-### 例 11: [动漫转真人Coser](https://x.com/ZHO_ZHO_ZHO/status/1960946893971706306)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+<!-- Case 11: Anime to Real Coser (by @ZHO_ZHO_ZHO) -->
+### Пример 11: [Из аниме в реального косплеера](https://x.com/ZHO_ZHO_ZHO/status/1960946893971706306)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case11/input.jpg" width="300" alt="输入图片"> | <img src="images/case11/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case11/input.jpg" width="300" alt="Input Image"> | <img src="images/case11/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张插画图像
+**ввод:** Необходимо загрузить изображение иллюстрации
 
-**提示词:**
+**промпт:**
 
 ```
-生成一个女孩cosplay这张插画的照片，背景设置在Comiket
+Сгенерируй фотографию девушки, косплеящей эту иллюстрацию, с фоном на Комикете
 ```
 
-<!-- 例 12: 生成角色设定（by @ZHO_ZHO_ZHO） -->
-### 例 12: [生成角色设定](https://x.com/ZHO_ZHO_ZHO/status/1960669234276753542)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+<!-- Case 12: Generate Character Design (by @ZHO_ZHO_ZHO) -->
+### Пример 12: [Генерация дизайна персонажа](https://x.com/ZHO_ZHO_ZHO/status/1960669234276753542)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case12/input.jpg" width="300" alt="输入图片"> | <img src="images/case12/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case12/input.jpg" width="300" alt="Input Image"> | <img src="images/case12/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张角色参考图像
+**ввод:** Необходимо загрузить референсное изображение персонажа
 
-**提示词:**
+**промпт:**
 
 ```
-为我生成人物的角色设定（Character Design）
+Сгенерируй для меня дизайн персонажа (Character Design)
 
-比例设定（不同身高对比、头身比等）
+Дизайн пропорций (сравнение разного роста, соотношение головы к телу и т.д.)
 
-三视图（正面、侧面、背面）
+Три вида (спереди, сбоку, сзади)
 
-表情设定（Expression Sheet） → 就是你发的那种图
+Дизайн выражений лица (Expression Sheet) → как на изображении, которое ты прислал
 
-动作设定（Pose Sheet） → 各种常见姿势
+Дизайн поз (Pose Sheet) → различные распространенные позы
 
-服装设定（Costume Design）
+Дизайн костюма (Costume Design)
 ```
 
-<!-- 例 13: 色卡线稿上色（by @ZHO_ZHO_ZHO） -->
-### 例 13: [色卡线稿上色](https://x.com/ZHO_ZHO_ZHO/status/1960652077891510752)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+<!-- Case 13: Color Line Art with Color Palette (by @ZHO_ZHO_ZHO) -->
+### Пример 13: [Раскрашивание контурного рисунка с использованием цветовой палитры](https://x.com/ZHO_ZHO_ZHO/status/1960652077891510752)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case13/input.jpg" width="300" alt="输入图片"> | <img src="images/case13/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case13/input.jpg" width="300" alt="Input Image"> | <img src="images/case13/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张线稿图和一张色卡图
+**ввод:** Необходимо загрузить контурный рисунок и изображение с цветовой палитрой
 
-**提示词:**
+**промпт:**
 
 ```
-准确使用图2色卡为图1人物上色
+Точно используй цветовую палитру с Рисунка 2, чтобы раскрасить персонажа на Рисунке 1
 ```
 
-<!-- 例 14: 文章信息图（by @黄建同学） -->
-### 例 14: [文章信息图](https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4)（by [@黄建同学](https://weibo.com/u/5648162302)）
+<!-- Case 14: Article Infographic (by @黄建同学) -->
+### Пример 14: [Инфографика для статьи](https://weibo.com/5648162302/5204549851155423?wm=3333_2001&from=10F8393010&sourcetype=weixin&s_trans=7836809604_5204549851155423&s_channel=4)（от [@黄建同学](https://weibo.com/u/5648162302)）
 
-| 输出 |
+| Вывод |
 |:---:|
-| <img src="images/case14/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case14/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一段博客/文章
+**ввод:** Необходимо загрузить блог/статью
 
-**提示词:**
+**промпт:**
 
 ```
-为文章内容生成信息图
-要求：
-1. 将内容翻译成英文，并提炼文章的关键信息
-2. 图中内容保持精简，只保留大标题
-3. 图中文字采用英文
-4. 加上丰富可爱的卡通人物和元素
+Сгенерируй инфографику для содержания статьи
+Требования:
+1. Переведи содержание на английский и извлеки ключевую информацию из статьи
+2. Сделай содержание на изображении кратким, оставив только основной заголовок
+3. Используй английский текст на изображении
+4. Добавь много милых мультяшных персонажей и элементов
 ```
 
-<!-- 例 15: 更换多种发型（by @balconychy） -->
-### 例 15: [更换多种发型](https://x.com/balconychy/status/1960665038504779923)（by [@balconychy](https://x.com/balconychy)）
+<!-- Case 15: Change Multiple Hairstyles (by @balconychy) -->
+### Пример 15: [Смена нескольких причесок](https://x.com/balconychy/status/1960665038504779923)（от [@balconychy](https://x.com/balconychy)）
 
-| 输出 |
+| Вывод |
 |:---:|
-| <img src="images/case15/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case15/output.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张需要更换发型的人像图片
+**ввод:** Необходимо загрузить портретное изображение, для которого нужно изменить прическу
 
-**提示词:**
+**промпт:**
 
 ```
-以九宫格的方式生成这个人不同发型的头像
+Сгенерируй аватары этого человека с разными прическами в формате сетки 3x3
 ```
 
-<!-- 例 16: 模型标注讲解图（by @berryxia_ai） -->
-### 例 16: [模型标注讲解图](https://x.com/berryxia_ai/status/1960708465586004305)（by [@berryxia_ai](https://x.com/berryxia_ai)）
+<!-- Case 16: Model Annotation Explanation Diagram (by @berryxia_ai) -->
+### Пример 16: [Схема с аннотациями для объяснения модели](https://x.com/berryxia_ai/status/1960708465586004305)（от [@berryxia_ai](https://x.com/berryxia_ai)）
 
-| 输出 |
+| Вывод |
 |:---:|
-| <img src="images/case16/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case16/output.jpg" width="300" alt="Output Result"> |
 
 > [!CAUTION]
-> 标注结果中存在较多错误 ⚠️。请注意，Nano-Banana 的标注结果并非完全正确，在使用时务必仔细核实信息的准确性。
+> В результатах аннотации имеется значительное количество ошибок ⚠️. Обратите внимание, что аннотации Nano-Banana не являются полностью точными, и перед использованием следует тщательно проверять правильность информации.
 
-**提示词:**
-
-```
-绘制[3D人体器官模型展示示例心脏]用于学术展示，进行标注讲解，适用于展示其原理和[每个器官]的功能，非常逼真，高度还原，精细度非常细致的设计
-```
-
-> [!NOTE]
-> **将 [方括号] 中的文字改为需要展示的模型**
-
-<!-- 例 17: 定制大理石雕塑（by @umesh_ai） -->
-### 例 17: [定制大理石雕塑](https://x.com/umesh_ai/status/1960370946562564353)（by [@umesh_ai](https://x.com/umesh_ai)）
-
-| 输出 |
-|:---:|
-| <img src="images/case17/output.jpg" width="300" alt="输出结果"> |
-
-**输入：** 需上传一张参考图像
-
-**提示词:**
+**промпт:**
 
 ```
-一张超详细的图像中主体雕塑的写实图像，由闪亮的大理石制成。雕塑应展示光滑反光的大理石表面，强调其光泽和艺术工艺。设计优雅，突出大理石的美丽和深度。图像中的光线应增强雕塑的轮廓和纹理，创造出视觉上令人惊叹和迷人的效果
-```
-
-<!-- 例 18: 根据食材做菜（by @Gdgtify） -->
-### 例 18: [根据食材做菜](https://x.com/Gdgtify/status/1960907695348691075)（by [@Gdgtify](https://x.com/Gdgtify)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case18/input1.jpg" width="300" alt="输入图片"> | <img src="images/case18/output1.jpg" width="300" alt="输出结果"> |
-| <img src="images/case18/input2.jpg" width="300" alt="输入图片"> | <img src="images/case18/output2.jpg" width="300" alt="输出结果"> |
-| <img src="images/case18/input3.jpg" width="300" alt="输入图片"> | <img src="images/case18/output3.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张带有多种食材的照片
-
-**提示词:**
-
-```
-用这些食材为我做一顿美味的午餐，放在盘子里，盘子的特写视图，移除其他盘子和食材
-```
-
-<!-- 例 19: 数学题推理（by @Gorden Sun） -->
-### 例 19: [数学题推理](https://www.xiaohongshu.com/explore/68ade0e7000000001d036677?note_flow_source=wechat&xsec_token=AB4tWI6xCrE2v5euckYXKCBlbQbA-YNoqI5iKKqqQwWpY=)（by [@Gorden Sun](https://www.xiaohongshu.com/user/profile/632e72f900000000230397fe?xsec_token=ABeSWJqqsTwTtj3KG1HSTt_vwRcODR4jDJnj2dp0k42YI%3D&xsec_source=pc_note)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case19/input.jpg" width="300" alt="输入图片"> | <img src="images/case19/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一道数学类的题目
-
-**提示词:**
-
-```
-根据问题将问题的答案写在对应的位置上  
-```
-
-<!-- 例 20: 旧照片上色（by @GeminiApp） -->
-### 例 20: [旧照片上色](https://x.com/GeminiApp/status/1960347483021959197)（by [@GeminiApp](https://x.com/GeminiApp)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case20/input.jpg" width="300" alt="输入图片"> | <img src="images/case20/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张老旧、需要修复的照片
-
-**提示词:**
-
-```
-修复并为这张照片上色
-```
-
-<!-- 例 21: OOTD穿搭（by @302.AI） -->
-### 例 21: [OOTD穿搭](https://medium.com/%40302.AI/google-nano-banana-vs-qwen-gpt-flux-topping-the-image-editing-leaderboard-96038b01bdcd)（by [@302.AI](https://medium.com/@302.AI)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case21/input.jpg" width="300" alt="输入图片"> | <img src="images/case21/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张人物图片和服装图片
-
-**提示词:**
-
-```
-选择图1中的人，让他们穿上图2中的所有服装和配饰。在户外拍摄一系列写实的OOTD风格照片，使用自然光线，时尚的街头风格，清晰的全身镜头。保持图1中人物的身份和姿势，但以连贯时尚的方式展示图2中的完整服装和配饰
-```
-
-<!-- 例 22: 人物换衣（by @skirano） -->
-### 例 22: [人物换衣](https://x.com/skirano/status/1960343968320737397)（by [@skirano](https://x.com/skirano)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case22/input.jpg" width="300" alt="输入图片"> | <img src="images/case22/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传人物图像和衣服图像
-
-**提示词:**
-
-```
-将输入图像中人物的服装替换为参考图像中显示的目标服装。保持人物的姿势、面部表情、背景和整体真实感不变。让新服装看起来自然、合身，并与光线和阴影保持一致。不要改变人物的身份或环境——只改变衣服
-```
-
-<!-- 例 23: 多视图结果生成（by @Error_HTTP_404） -->
-### 例 23: [多视图结果生成](https://x.com/Error_HTTP_404/status/1960405116701303294)（by [@Error_HTTP_404](https://x.com/Error_HTTP_404)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case23/input.jpg" width="300" alt="输入图片"> | <img src="images/case23/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-在白色背景上生成前、后、左、右、上、下视图。均匀分布。一致的主体。等距透视等效
-```
-
-<!-- 例 24: 电影分镜（by @GeminiApp） -->
-### 例 24: 电影分镜（by [@GeminiApp](@GeminiApp)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case24/input.jpg" width="300" alt="输入图片"> | <img src="images/case24/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-用这两个角色创作一个令人上瘾的12部分故事，包含12张图像，讲述经典的黑色电影侦探故事。故事关于他们寻找线索并最终发现的失落的宝藏。整个故事充满刺激，有情感的高潮和低谷，以精彩的转折和高潮结尾。不要在图像中包含任何文字或文本，纯粹通过图像本身讲述故事
-```
-
-<!-- 例 25: 人物姿势修改（by @arrakis_ai） -->
-### 例 25: [人物姿势修改](https://x.com/arrakis_ai/status/1955901155726516652)（by [@arrakis_ai](https://x.com/arrakis_ai)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case25/input.jpg" width="300" alt="输入图片"> | <img src="images/case25/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-让图片中的人直视前方
-```
-
-<!-- 例 26: 线稿图生成图像（by @ZHO_ZHO_ZHO） -->
-### 例 26: [线稿图生成图像](https://x.com/ZHO_ZHO_ZHO/status/1961024423596872184)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case26/input.jpg" width="300" alt="输入图片"> | <img src="images/case26/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传线稿图和参考图像
-
-**提示词:**
-
-```
-将图一人物换成图二姿势，专业摄影棚拍摄
-```
-
-<!-- 例 27: 为图像添加水印（by @AiMachete） -->
-### 例 27: [为图像添加水印](https://x.com/AiMachete/status/1963038793705128219)（by [@AiMachete](https://x.com/AiMachete)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case27/input.jpg" width="300" alt="输入图片"> | <img src="images/case27/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-在整个图片上反复覆盖“TRUMP”这个词。
-```
-
-<!-- 例 28: 知识推理生成图像（by @icreatelife） -->
-### 例 28: [知识推理生成图像](https://x.com/icreatelife/status/1962998951948517428)（by [@icreatelife](https://x.com/icreatelife)）
-
-| 输出 |
-|:---:|
-| <img src="images/case28/output.jpg" width="300" alt="输出结果"> |
-| <img src="images/case28/output1.jpg" width="300" alt="输出结果"> |
-
-**提示词:**
-
-```
-为我制作一张世界五座最高建筑的信息图 / 制作一张关于地球上最甜蜜事物的彩色信息图
-```
-
-<!-- 例 29: 红笔批注（by @AiMachete） -->
-### 例 29: [红笔批注](https://x.com/AiMachete/status/1962356993550643355)（by [@AiMachete](https://x.com/AiMachete)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case29/input.jpg" width="300" alt="输入图片"> | <img src="images/case29/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-分析这张图片。用红笔标出你可以改进的地方。
-```
-
-<!-- 例 30: 爆炸的食物（by @icreatelife） -->
-### 例 30: [爆炸的食物](https://x.com/icreatelife/status/1962724040205803773)（by [@icreatelife](https://x.com/icreatelife)）
-
-| 输出 |
-|:---:|
-| <img src="images/case30/output.jpg" width="300" alt="输出结果"> |
-| <img src="images/case30/output1.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-在具有戏剧性的现代场景中拍摄该产品，并伴随着爆炸性的向外动态排列，主要成分新鲜和原始在产品周围飞舞，表明其新鲜度和营养价值。促销广告镜头，没有文字，强调产品，以关键品牌颜色作为背景。
-```
-
-<!-- 例 31: 制作漫画书（by @icreatelife） -->
-### 例 31: [制作漫画书](https://x.com/icreatelife/status/1961977580849873169)（by [@icreatelife](https://x.com/icreatelife)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case31/input.jpg" width="300" alt="输入图片"> | <img src="images/case31/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-基于上传的图像，制作漫画书条幅，添加文字，写一个引人入胜的故事。我想要一本奇幻漫画书。
-```
-
-<!-- 例 32: 动作人偶（by @icreatelife） -->
-### 例 32: [动作人偶](https://x.com/icreatelife/status/1961653618529935720)（by [@icreatelife](https://x.com/icreatelife)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case32/input.jpg" width="300" alt="输入图片"> | <img src="images/case32/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传参考图像
-
-**提示词:**
-
-```
-制作一个写着 [“AI Evangelist - Kris”] 的动作人偶，并包含 [咖啡、乌龟、笔记本电脑、手机和耳机] 。
-```
-> [!NOTE]
-> **将 [方括号] 中的文字改为需要添加的物品**
-
-
-<!-- 例 33: 地图生成等距建筑（by @demishassabis） -->
-### 例 33: [地图生成等距建筑](https://x.com/demishassabis/status/1961077016830083103)（by [@demishassabis](https://x.com/demishassabis)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case33/input.jpg" width="300" alt="输入图片"> | <img src="images/case33/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传地图的参考图像
-
-**提示词:**
-
-```
-以这个位置为地标，将其设为等距图像（仅建筑物），采用游戏主题公园的风格
-```
-
-<!-- 例 34: 参考图控制人物表情（by @ZHO_ZHO_ZHO） -->
-### 例 34: [参考图控制人物表情](https://x.com/ZHO_ZHO_ZHO/status/1963156830458085674)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 示例 |
-|:---:|
-| <img src="images/case34/case.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张人物参考图和一张表情参考图
-
-**提示词:**
-
-```
-图一人物参考/换成图二人物的表情
-```
-
-<!-- 例 35: 插画绘画过程四格（by @ZHO_ZHO_ZHO） -->
-### 例 35: [插画绘画过程四格](https://x.com/ZHO_ZHO_ZHO/status/1961772524611768452)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 示例 |
-|:---:|
-| <img src="images/case35/case.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张人物参考图像
-
-**提示词:**
-
-```
-为人物生成绘画过程四宫格，第一步：线稿，第二步平铺颜色，第三步：增加阴影，第四步：细化成型。不要文字
-```
-
-<!-- 例 36: 虚拟试妆（by @ZHO_ZHO_ZHO） -->
-### 例 36: [虚拟试妆](https://x.com/ZHO_ZHO_ZHO/status/1962778069242126824)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 示例 |
-|:---:|
-| <img src="images/case36/case.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张人物参考图像和一张妆造参考图片
-
-**提示词:**
-
-```
-为图一人物化上图二的妆，还保持图一的姿势
-```
-
-<!-- 例 37: 妆面分析（by @ZHO_ZHO_ZHO） -->
-### 例 37: [妆面分析](https://x.com/ZHO_ZHO_ZHO/status/1962784384693739621)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case37/input.jpg" width="300" alt="输入图片"> | <img src="images/case37/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张人物参考图像
-
-**提示词:**
-
-```
-分析这张图片。用红笔标出可以改进的地方
-Analyze this image. Use red pen to denote where you can improve
-```
-
-<!-- 例 38: Google地图视角下的中土世界（by @TechHallo） -->
-### 例 38: [Google地图视角下的中土世界](https://x.com/techhalla/status/1962292272227102941)（by [@TechHallo](https://x.com/techhalla)）
-
-| 输出 |
-|:---:|
-| <img src="images/case38/output.jpg" width="300" alt="输出结果"> |
-
-**提示词:**
-
-```
-行车记录仪谷歌街景拍摄 | [霍比屯街道] | [霍比特人进行园艺和抽烟斗等日常活动] | [晴天]
+Нарисуй [пример отображения 3D-модели человеческого органа - сердце] для академической презентации, с аннотациями и объяснениями, подходящими для демонстрации его принципов и функций [каждого органа], очень реалистично, с высокой детализацией и чрезвычайно тонким дизайном.
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为需要的地区和天气**
+> **Измените текст в [квадратных скобках] на модель, которую вы хотите продемонстрировать**
 
-<!-- 例 39: 印刷插画生成 (@Umesh） -->
-### 例 39: [印刷插画生成](https://x.com/umesh_ai/status/1961110485543371145)（by [@Umesh](https://x.com/umesh_ai)）
+<!-- Case 17: Custom Marble Sculpture (by @umesh_ai) -->
+### Пример 17: [Пользовательская мраморная скульптура](https://x.com/umesh_ai/status/1960370946562564353)（от [@umesh_ai](https://x.com/umesh_ai)）
 
-| 输出 |
+| Вывод |
 |:---:|
-| <img src="images/case39/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case17/output.jpg" width="300" alt="Output Result"> |
 
-**提示词:**
+**ввод：** Необходимо загрузить референсное изображение
+
+**промпт:**
 
 ```
-仅使用短语 [“riding a bike”] 中的字母，创作一幅极简主义的黑白印刷插图，描绘骑自行车的场景。每个字母的形状和位置都应富有创意，以构成骑车人、自行车和动感。设计应简洁、极简，完全由修改后的 [“riding a bike”] 字母组成，不添加任何额外的形状或线条。字母应流畅或弯曲，以模仿场景的自然形态，同时保持清晰易读。
+Фотореалистичное изображение ультрадетализированной скульптуры объекта с изображения, сделанной из сияющего мрамора. Скульптура должна иметь гладкую и отражающую мраморную поверхность, подчеркивающую ее блеск и художественное мастерство. Дизайн элегантный, выделяющий красоту и глубину мрамора. Освещение на изображении должно усиливать контуры и текстуры скульптуры, создавая визуально потрясающий и завораживающий эффект.
+```
+
+<!-- Case 18: Cook Based on Ingredients (by @Gdgtify) -->
+### Пример 18: [Приготовление блюда из имеющихся ингредиентов](https://x.com/Gdgtify/status/1960907695348691075)（от [@Gdgtify](https://x.com/Gdgtify)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case18/input1.jpg" width="300" alt="Input Image"> | <img src="images/case18/output1.jpg" width="300" alt="Output Result"> |
+| <img src="images/case18/input2.jpg" width="300" alt="Input Image"> | <img src="images/case18/output2.jpg" width="300" alt="Output Result"> |
+| <img src="images/case18/input3.jpg" width="300" alt="Input Image"> | <img src="images/case18/output3.jpg" width="300" alt="Output Result"> |
+
+**ввод:** Необходимо загрузить фотографию с различными ингредиентами
+
+**промпт:**
+
+```
+приготовь мне вкусный обед из этих ингредиентов и положи его на тарелку, вид тарелки крупным планом, убери остальные тарелки и ингредиенты.
+```
+
+<!-- Case 19: Math Problem Reasoning (by @Gorden Sun) -->
+### Пример 19: [Решение математической задачи](https://www.xiaohongshu.com/explore/68ade0e7000000001d036677?note_flow_source=wechat&xsec_token=AB4tWI6xCrE2v5euckYXKCBlbQbA-YNoqI5iKKqqQwWpY=)（от [@Gorden Sun](https://www.xiaohongshu.com/user/profile/632e72f900000000230397fe?xsec_token=ABeSWJqqsTwTtj3KG1HSTt_vwRcODR4jDJnj2dp0k42YI%3D&xsec_source=pc_note)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case19/input.jpg" width="300" alt="Input Image"> | <img src="images/case19/output.jpg" width="300" alt="Output Result"> |
+
+
+**ввод:** Необходимо загрузить математическую задачу
+
+**промпт:**
+
+```
+Напиши ответ на задачу в соответствующем месте на основе вопроса
+```
+
+<!-- Case 20: Old Photo Colorization (by @GeminiApp) -->
+### Пример 20: [Колоризация старой фотографии](https://x.com/GeminiApp/status/1960347483021959197)（от [@GeminiApp](https://x.com/GeminiApp)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case20/input.jpg" width="300" alt="Input Image"> | <img src="images/case20/output.jpg" width="300" alt="Output Result"> |
+
+
+**ввод:** Необходимо загрузить старую фотографию, требующую восстановления
+
+**промпт:**
+
+```
+восстанови и раскрась это фото.
+```
+
+<!-- Case 21: OOTD Outfit (by @302.AI) -->
+### Пример 21: [OOTD-образ (образ дня)](https://medium.com/%40302.AI/google-nano-banana-vs-qwen-gpt-flux-topping-the-image-editing-leaderboard-96038b01bdcd)（от [@302.AI](https://medium.com/@302.AI)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case21/input.jpg" width="300" alt="Input Image"> | <img src="images/case21/output.jpg" width="300" alt="Output Result"> |
+
+
+**ввод:** Необходимо загрузить изображение человека и изображение одежды
+
+**промпт:**
+
+```
+Выбери человека на Изображении 1 и одень его во всю одежду и аксессуары с Изображения 2. Сделай серию реалистичных фотографий в стиле OOTD на улице, используя естественное освещение, стильный уличный стиль и четкие снимки в полный рост. Сохрани идентичность и позу человека с Изображения 1, но покажи полный комплект одежды и аксессуаров с Изображения 2 в целостном, стильном виде.
+```
+
+<!-- Case 22: Character Clothing Change (by @skirano) -->
+### Пример 22: [Смена одежды персонажа](https://x.com/skirano/status/1960343968320737397)（от [@skirano](https://x.com/skirano)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case22/input.jpg" width="300" alt="Input Image"> | <img src="images/case22/output.jpg" width="300" alt="Output Result"> |
+
+
+**ввод:** Необходимо загрузить изображение человека и изображение одежды
+
+**промпт:**
+
+```
+Замени одежду человека на входном изображении на целевую одежду, показанную на референсном изображении. Сохрани позу, выражение лица, фон и общую реалистичность человека без изменений. Сделай так, чтобы новый наряд выглядел естественно, хорошо сидел и соответствовал освещению и теням. Не изменяй личность человека или окружение — меняй только одежду.
+```
+
+<!-- Case 23: Multi-View Result Generation (by @Error_HTTP_404) -->
+### Пример 23: [Генерация результата с нескольких ракурсов](https://x.com/Error_HTTP_404/status/1960405116701303294)（от [@Error_HTTP_404](https://x.com/Error_HTTP_404)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case23/input.jpg" width="300" alt="Input Image"> | <img src="images/case23/output.jpg" width="300" alt="Output Result"> |
+
+
+**ввод:** Необходимо загрузить референсное изображение
+
+**промпт:**
+
+```
+Сгенерируй виды спереди, сзади, слева, справа, сверху, снизу на белом фоне. Равномерно расположенные. Постоянный объект. Изометрическая перспектива.
+```
+
+<!-- Case 24: Movie Storyboard (by @GeminiApp) -->
+### Пример 24: Раскадровка для фильма（от [@GeminiApp](@GeminiApp)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case24/input.jpg" width="300" alt="Input Image"> | <img src="images/case24/output.jpg" width="300" alt="Output Result"> |
+
+
+**ввод:** Необходимо загрузить референсное изображение
+
+**промпт:**
+
+```
+Создай захватывающую историю из 12 частей с 12 изображениями с этими двумя персонажами в классическом черно-белом детективном стиле нуар. Сюжет должен быть о пропавшем сокровище, к которому они находят подсказки на протяжении всей истории и в конце концов обнаруживают его. История должна быть захватывающей, с эмоциональными взлетами и падениями, и заканчиваться отличным поворотом и на высокой ноте. Не включай никаких слов или текста на изображения, но расскажи историю исключительно через сами образы.
+```
+
+<!-- Case 25: Character Pose Modification (by @arrakis_ai) -->
+### Пример 25: [Изменение позы персонажа](https://x.com/arrakis_ai/status/1955901155726516652)（от [@arrakis_ai](https://x.com/arrakis_ai)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case25/input.jpg" width="300" alt="Input Image"> | <img src="images/case25/output.jpg" width="300" alt="Output Result"> |
+
+
+**ввод:** Необходимо загрузить референсное изображение
+
+**промпт:**
+
+```
+Пусть человек на картинке смотрит прямо вперед
+```
+
+<!-- Case 26: Generate image from line drawing（by @ZHO_ZHO_ZHO） -->
+### Пример 26: [Генерация изображения из контурного рисунка](https://x.com/ZHO_ZHO_ZHO/status/1961024423596872184)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case26/input.jpg" width="300" alt="Input Image"> | <img src="images/case26/output.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить контурные рисунки и референсные изображения
+
+**Промпт:**
+
+```
+Измени позу человека на Рисунке 1 на позу с Рисунка 2 и сделай снимок в профессиональной студии
+```
+
+<!-- Case 27: Add Watermark to Image (by @AiMachete) -->
+### Пример 27: [Добавление водяного знака на изображение](https://x.com/AiMachete/status/1963038793705128219)（от [@AiMachete](https://x.com/AiMachete)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case27/input.jpg" width="300" alt="Input Image"> | <img src="images/case27/output.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+Нанеси водяной знак со словом ‘TRUMP’ многократно по всему изображению.
+```
+
+<!-- Case 28: Knowledge Reasoning Image Generation (by @icreatelife) -->
+### Пример 28: [Генерация изображения на основе логических рассуждений](https://x.com/icreatelife/status/1962998951948517428)（от [@icreatelife](https://x.com/icreatelife)）
+
+| Вывод |
+|:---:|
+| <img src="images/case28/output.jpg" width="300" alt="Output Result"> |
+| <img src="images/case28/output1.jpg" width="300" alt="Output Result"> |
+
+**Промпт:**
+
+```
+Сделай мне инфографику 5 самых высоких зданий в мире / Сделай красочную инфографику самых сладких вещей на Земле
+```
+
+<!-- Case 29: Red Pen Annotations (by @AiMachete) -->
+### Пример 29: [Аннотации красной ручкой](https://x.com/AiMachete/status/1962356993550643355)（от [@AiMachete](https://x.com/AiMachete)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case29/input.jpg" width="300" alt="Input Image"> | <img src="images/case29/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+Проанализируй это изображение. Используй красную ручку, чтобы отметить, что можно улучшить.
+```
+
+<!-- Case 30: Explosive Food (by @icreatelife) -->
+### Пример 30: ["Взрывная" еда](https://x.com/icreatelife/status/1962724040205803773)（от [@icreatelife](https://x.com/icreatelife)）
+
+| Вывод |
+|:---:|
+| <img src="images/case30/output.jpg" width="300" alt="Output Result"> |
+| <img src="images/case30/output1.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+Сфотографируй этот продукт в драматической современной сцене, сопровождаемой взрывным динамичным расположением ключевых ингредиентов, свежих и сырых, летящих вокруг продукта, что символизирует его свежесть и питательную ценность. Рекламный снимок, без текста, продукт подчеркнут, с ключевыми цветами бренда в качестве фона.
+```
+
+<!-- Case 31: Create Comic Book (by @icreatelife) -->
+### Пример 31: [Создание комикса](https://x.com/icreatelife/status/1961977580849873169)（от [@icreatelife](https://x.com/icreatelife)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case31/input.jpg" width="300" alt="Input Image"> | <img src="images/case31/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+На основе загруженного изображения сделай комикс, добавь текст, напиши захватывающую историю. Я хочу комикс о супергерое.
+```
+
+<!-- Case 32: Action Figure (by @icreatelife) -->
+### Пример 32: [Экшен-фигурка](https://x.com/icreatelife/status/1961653618529935720)（от [@icreatelife](https://x.com/icreatelife)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case32/input.jpg" width="300" alt="Input Image"> | <img src="images/case32/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+сделай мою экшен-фигурку с надписью [“AI-евангелист - Крис”] и с [кофе, черепахой, ноутбуком, телефоном и наушниками]
+
+```
+> [!NOTE]
+> **Измените текст в [квадратных скобках] на предметы, которые вы хотите добавить**
+
+
+<!-- Case 33: Map to Isometric Buildings (by @demishassabis) -->
+### Пример 33: [Из карты в изометрические здания](https://x.com/demishassabis/status/1961077016830083103)（от [@demishassabis](https://x.com/demishassabis)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case33/input.jpg" width="300" alt="Input Image"> | <img src="images/case33/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение карты
+
+**Промпт:**
+
+```
+Возьми это место и сделай достопримечательность изометрическим изображением (только здание), в стиле игры Theme Park
+```
+
+<!-- Case 34: Reference Image Controls Character Expression (by @ZHO_ZHO_ZHO) -->
+### Пример 34: [Управление выражением лица персонажа с помощью референсного изображения](https://x.com/ZHO_ZHO_ZHO/status/1963156830458085674)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Пример |
+|:---:|
+| <img src="images/case34/case.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение персонажа и референсное изображение выражения лица
+
+**Промпт:**
+
+```
+Референс персонажа с Изображения 1 / Измени на выражение с Изображения 2
+```
+
+<!-- Case 35: Illustration Drawing Process Four-Panel (by @ZHO_ZHO_ZHO) -->
+### Пример 35: [Четырехпанельный процесс рисования иллюстрации](https://x.com/ZHO_ZHO_ZHO/status/1961772524611768452)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Пример |
+|:---:|
+| <img src="images/case35/case.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение персонажа
+
+**Промпт:**
+
+```
+Сгенерируй четырехпанельный процесс рисования персонажа: Шаг 1: Контурный рисунок, Шаг 2: Плоские цвета, Шаг 3: Добавление теней, Шаг 4: Доработка и завершение. Без текста.
+```
+
+<!-- Case 36: Virtual Makeup Try-On (by @ZHO_ZHO_ZHO) -->
+### Пример 36: [Виртуальная примерка макияжа](https://x.com/ZHO_ZHO_ZHO/status/1962778069242126824)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Пример |
+|:---:|
+| <img src="images/case36/case.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение персонажа и референсное изображение макияжа
+
+**Промпт:**
+
+```
+Нанеси макияж с Изображения 2 на персонажа с Изображения 1, сохраняя позу с Изображения 1.
+```
+
+<!-- Case 37: Makeup Analysis (by @ZHO_ZHO_ZHO) -->
+### Пример 37: [Анализ макияжа](https://x.com/ZHO_ZHO_ZHO/status/1962784384693739621)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case37/input.jpg" width="300" alt="Input Image"> | <img src="images/case37/output.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение персонажа
+
+**Промпт:**
+
+```
+Проанализируй это изображение. Используй красную ручку, чтобы отметить области, которые можно улучшить
+Проанализируй это изображение. Используй красную ручку, чтобы обозначить, что можно улучшить
+```
+
+<!-- Case 38: Google Maps View of Middle-earth (by @TechHallo) -->
+### Пример 38: [Вид Средиземья в Google Maps](https://x.com/techhalla/status/1962292272227102941)（от [@TechHallo](https://x.com/techhalla)）
+
+| Вывод |
+|:---:|
+| <img src="images/case38/output.jpg" width="300" alt="Output Result"> |
+
+**Промпт:**
+
+```
+Снимок с видеорегистратора Google Street View | [Улица Хоббитона] | [хоббиты, занимающиеся повседневными делами, такими как садоводство и курение трубок] | [Солнечная погода]
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为需要的文字**
+> **Измените текст в [квадратных скобках] на желаемое местоположение и погоду**
 
-<!-- 例 40: 超多人物姿势生成（by @tapehead_Lab） -->
-### 例 40: [超多人物姿势生成](https://x.com/tapehead_Lab/status/1960878455299694639)（by [@tapehead_Lab](https://x.com/tapehead_Lab)）
+<!-- Case 39: Typographic Illustration Generation (by @Umesh) -->
+### Пример 39: [Генерация типографической иллюстрации](https://x.com/umesh_ai/status/1961110485543371145)（от [@Umesh](https://x.com/umesh_ai)）
 
-| 示例 |
+| Вывод |
 |:---:|
-| <img src="images/case40/case.jpg" width="300" alt="输出结果"> |
+| <img src="images/case39/output.jpg" width="300" alt="Output Result"> |
 
-
-**输入:** 需上传一张人物参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-请为这幅插图创建一个姿势表，摆出各种姿势
-```
+Создай минималистичную черно-белую типографическую иллюстрацию сцены езды на велосипеде, используя только буквы из фразы ['езда на велосипеде']. Каждая буква должна быть творчески сформирована или расположена так, чтобы образовать велосипедиста, велосипед и ощущение движения. Дизайн должен быть чистым, ультра-минималистичным и полностью состоять из измененных букв ['езда на велосипеде'] без добавления каких-либо дополнительных форм или линий. Буквы должны плавно изгибаться, имитируя естественную форму сцены, но при этом оставаться читаемыми.
 
-<!-- 例 41: 物品包装生成（by @ZHO_ZHO_ZHO） -->
-### 例 41: [物品包装生成](https://x.com/ZHO_ZHO_ZHO/status/1962763864875167971)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 示例 |
-|:---:|
-| <img src="images/case41/case.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张物品参考图像和一张包装参考图片
-
-**提示词:**
-
-```
-把图一贴在图二易拉罐上，并放在极简设计的布景中，专业摄影
-```
-
-<!-- 例 42: 叠加滤镜/材质（by @ZHO_ZHO_ZHO） -->
-### 例 42: [叠加滤镜/材质](https://x.com/ZHO_ZHO_ZHO/status/1962520937011855793)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 示例 |
-|:---:|
-| <img src="images/case42/case.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张参考图像和一张滤镜/材质参考图片
-
-**提示词:**
-
-```
-为图一照片叠加上图二 [玻璃] 的效果
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为需要的滤镜/材质**
+> **Измените текст в [квадратных скобках] на желаемый текст**
 
-<!-- 例 43: 控制人物脸型（by @ZHO_ZHO_ZHO） -->
-### 例 43: [控制人物脸型](https://x.com/ZHO_ZHO_ZHO/status/1961802767493939632)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+<!-- Case 40: Multiple Character Poses Generation (by @tapehead_Lab) -->
+### Пример 40: [Генерация нескольких поз персонажа](https://x.com/tapehead_Lab/status/1960878455299694639)（от [@tapehead_Lab](https://x.com/tapehead_Lab)）
 
-| 示例 |
+| Пример |
 |:---:|
-| <img src="images/case43/case.jpg" width="300" alt="输出结果"> |
+| <img src="images/case40/case.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张参考图像和一张脸型参考图片
+**Ввод:** Необходимо загрузить референсное изображение персонажа
 
-**提示词:**
+**Промпт:**
 
 ```
-图一人物按照图二的脸型设计为q版形象
+Пожалуйста, создай лист поз для этой иллюстрации, сделав различные позы!
 ```
 
-<!-- 例 44: 光影控制（by @ZHO_ZHO_ZHO） -->
-### 例 44: [光影控制](https://x.com/ZHO_ZHO_ZHO/status/1961779457372602725)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+<!-- Case 41: Product Packaging Generation (by @ZHO_ZHO_ZHO) -->
+### Пример 41: [Генерация упаковки продукта](https://x.com/ZHO_ZHO_ZHO/status/1962763864875167971)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
 
-| 示例 |
+| Пример |
 |:---:|
-| <img src="images/case44/case.jpg" width="300" alt="输出结果"> |
+| <img src="images/case41/case.jpg" width="300" alt="Output Result"> |
 
 
-**输入:** 需上传一张参考图像和一张光影参考图片
+**Ввод:** Необходимо загрузить референсное изображение продукта и референсное изображение упаковки
 
-**提示词:**
-
-```
-图一人物变成图二光影，深色为暗
-```
-
-<!-- 例 45: 乐高玩具小人（by @ZHO_ZHO_ZHO） -->
-### 例 45: [乐高玩具小人](https://x.com/ZHO_ZHO_ZHO/status/1961395526198595771)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case45/input.jpg" width="300" alt="输入图片"> | <img src="images/case45/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-将照片中的人物转化为乐高小人包装盒的风格，以等距透视呈现。在包装盒上标注标题“ZHOGUE”。在盒内展示基于照片中人物的乐高小人，并配有他们必需的物品（如化妆品、包或其他物品）作为乐高配件。在盒子旁边，也展示实际乐高小人本身，未包装，以逼真且生动的方式渲染。
+Примени дизайн с Изображения 1 к банке на Изображении 2 и помести ее в минималистичную обстановку, профессиональная фотография
 ```
 
-<!-- 例 46: 高达模型小人（by @ZHO_ZHO_ZHO） -->
-### 例 46: [高达模型小人](https://x.com/ZHO_ZHO_ZHO/status/1961412823340265509)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+<!-- Case 42: Overlay Filter/Material (by @ZHO_ZHO_ZHO) -->
+### Пример 42: [Наложение фильтра/материала](https://x.com/ZHO_ZHO_ZHO/status/1962520937011855793)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
 
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case46/input.jpg" width="300" alt="输入图片"> | <img src="images/case46/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-将照片中的人物转化为高达模型套件包装盒的风格，以等距透视呈现。在包装盒上标注标题“ZHOGUE”。在盒内展示照片中人物的高达风格机械人版本，并伴随其必需品（如化妆品、包袋或其他物品）重新设计为未来派机械配件。包装盒应类似真实的 Gunpla 盒子，包含技术插图、说明书风格细节和科幻字体。在盒子旁边，也展示实际的高达风格机械人本身，在包装外以逼真且栩栩如生的风格渲染，类似于官方 Bandai 宣传渲染图。
-```
-
-<!-- 例 47: 硬件拆解图（by @AIimagined） -->
-### 例 47: [硬件拆解图](https://x.com/AIimagined/status/1961431851245211958)（by [@AIimagined](https://x.com/AIimagined)）
-
-| 输出 |
+| Пример |
 |:---:|
-| <img src="images/case47/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case42/case.jpg" width="300" alt="Output Result"> |
 
-**提示词:**
 
-```
-数码单反相机的分解图，展示了其所有配件和内部组件，例如镜头、滤镜、内部组件、镜头、传感器、螺丝、按钮、取景器、外壳和电路板。保留了数码单反相机的红色装饰。
-```
+**Ввод:** Необходимо загрузить референсное изображение и референсное изображение фильтра/материала
 
-<!-- 例 48: 食物卡路里标注（by @icreatelife） -->
-### 例 48: [食物卡路里标注](https://x.com/icreatelife/status/1963646757222715516)（by [@icreatelife](https://x.com/icreatelife)）
-
-| 输出 |
-|:---:|
-| <img src="images/case48/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张食物参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-用食物名称、卡路里密度和近似卡路里来注释这顿饭
-```
-
-<!-- 例 49: 提取信息并放置透明图层（by @nglprz） -->
-### 例 49: [提取信息并放置透明图层](https://x.com/nglprz/status/1961494974555394068)（by [@nglprz](https://x.com/icreatelife)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case49/input.jpg" width="300" alt="输入图片"> | <img src="images/case49/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-提取 [武士] 并放置透明背景
+Наложи эффект [стекла] с Изображения 2 на фотографию с Изображения 1
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为需要提取的对象**
+> **Измените текст в [квадратных скобках] на желаемый фильтр/материал**
 
-<!-- 例 50: 图像外扩修复（by @bwabbage） -->
-### 例 50: [图像外扩修复](https://x.com/bwabbage/status/1962903212937130450)（by [@bwabbage](https://x.com/bwabbage)）
+<!-- Case 43: Control Character Face Shape (by @ZHO_ZHO_ZHO) -->
+### Пример 43: [Управление формой лица персонажа](https://x.com/ZHO_ZHO_ZHO/status/1961802767493939632)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
 
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case50/input.jpg" width="300" alt="输入图片"> | <img src="images/case50/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张带有未知棋盘格信息的参考图像
-
-**提示词:**
-
-```
-将图像的棋盘格部分进行修复，恢复为完整图像
-```
-
-<!-- 例 51: 古老地图生成场景照片（by @levelsio） -->
-### 例 51: [古老地图生成古代场景](https://x.com/levelsio/status/1961595333034598487)（by [@levelsio](https://x.com/levelsio)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case51/input.jpg" width="300" alt="输入图片"> | <img src="images/case51/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张古代的参考图像
-
-**提示词:**
-
-```
-全彩照片。1660 年的新阿姆斯特丹。确保它是全现代色彩，就像它是今天拍摄的照片一样。
-```
-
-<!-- 例 52: 时尚服装拼贴画（by @tetumemo） -->
-### 例 52: [时尚服装拼贴画](https://x.com/tetumemo/status/1962480699904282861)（by [@tetumemo](https://x.com/tetumemo)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case52/input.jpg" width="300" alt="输入图片"> | <img src="images/case52/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-时尚情绪板拼贴画。用模特所穿单品的剪纸图案围绕肖像画。用俏皮的马克笔字体添加手写笔记和草图，并用英文标注每件单品的品牌名称和来源。整体美感应该兼具创意和可爱。
-```
-
-<!-- 例 53: 精致可爱的产品照片（by @azed_ai） -->
-### 例 53: [精致可爱的产品照片](https://x.com/azed_ai/status/1962878353784066342)（by [@azed_ai](https://x.com/azed_ai)）
-
-| 输出 |
+| Пример |
 |:---:|
-| <img src="images/case53/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case43/case.jpg" width="300" alt="Output Result"> |
 
-**提示词:**
+
+**Ввод:** Необходимо загрузить референсное изображение и референсное изображение формы лица
+
+**Промпт:**
 
 ```
-一张高分辨率广告照片，一位男士用拇指和食指精心握着一件逼真的微型 [产品] 。背景干净清爽，摄影棚灯光，阴影柔和。手部造型精致，肤色自然，摆放位置凸显了产品的形状和细节。产品看起来极小，但细节丰富，品牌形象精准，位于画面中央，景深浅。模仿了奢侈品摄影和极简主义商业风格。
+Создай чиби-версию персонажа с Изображения 1 в соответствии с формой лица с Изображения 2
+```
+
+<!-- Case 44: Lighting Control (by @ZHO_ZHO_ZHO) -->
+### Пример 44: [Управление освещением](https://x.com/ZHO_ZHO_ZHO/status/1961779457372602725)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Пример |
+|:---:|
+| <img src="images/case44/case.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение и референсное изображение освещения
+
+**Промпт:**
+
+```
+Измени освещение персонажа с Изображения 1 на освещение с Изображения 2, с темными областями в качестве теней
+```
+
+<!-- Case 45: LEGO Minifigure (by @ZHO_ZHO_ZHO) -->
+### Пример 45: [Минифигурка LEGO](https://x.com/ZHO_ZHO_ZHO/status/1961395526198595771)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case45/input.jpg" width="300" alt="Input Image"> | <img src="images/case45/output.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+Преврати человека на фото в стиль упаковочной коробки минифигурки LEGO, представленной в изометрической перспективе. На коробке укажи название "ZHOGUE". Внутри коробки покажи минифигурку LEGO, основанную на человеке с фото, вместе с его основными предметами (такими как косметика, сумки или другие вещи) в виде аксессуаров LEGO. Рядом с коробкой также покажи саму минифигурку LEGO, без упаковки, выполненную в реалистичном и ярком стиле.
+```
+
+<!-- Case 46: Gundam Model Figure (by @ZHO_ZHO_ZHO) -->
+### Пример 46: [Модель-фигурка Gundam](https://x.com/ZHO_ZHO_ZHO/status/1961412823340265509)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case46/input.jpg" width="300" alt="Input Image"> | <img src="images/case46/output.jpg" width="300" alt="Output Result"> |
+
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+Преврати человека на фото в стиль упаковочной коробки модели Gundam, представленной в изометрической перспективе. На коробке укажи название "ZHOGUE". Внутри коробки покажи механическую версию человека с фото в стиле Gundam, вместе с его основными вещами (такими как косметика, сумки или другие предметы), переработанными в футуристические механические аксессуары. Упаковка должна напоминать настоящие коробки Gunpla, включая технические иллюстрации, детали в стиле инструкции по сборке и научно-фантастические шрифты. Рядом с коробкой также покажи саму механическую фигурку в стиле Gundam, вне упаковки, выполненную в реалистичном и живом стиле, похожем на официальные промо-рендеры Bandai.
+```
+
+<!-- Case 47: Hardware Exploded View (by @AIimagined) -->
+### Пример 47: [Схема-взрыв устройства](https://x.com/AIimagined/status/1961431851245211958)（от [@AIimagined](https://x.com/AIimagined)）
+
+| Вывод |
+|:---:|
+| <img src="images/case47/output.jpg" width="300" alt="Output Result"> |
+
+**Промпт:**
+
+```
+Схема-взрыв DSLR-камеры, показывающая все ее аксессуары и внутренние компоненты, такие как объектив, фильтр, внутренние компоненты, сенсор, винты, кнопки, видоискатель, корпус и печатная плата. Сохрани красные акценты DSLR-камеры.
+```
+
+<!-- Case 48: Food Calorie Annotation (by @icreatelife) -->
+### Пример 48: [Аннотация калорийности еды](https://x.com/icreatelife/status/1963646757222715516)（от [@icreatelife](https://x.com/icreatelife)）
+
+| Вывод |
+|:---:|
+| <img src="images/case48/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение еды
+
+**Промпт:**
+
+```
+аннотируй это блюдо с названиями продуктов, плотностью калорий и приблизительным количеством калорий
+```
+
+<!-- Case 49: Extract Subject and Place on Transparent Layer (by @nglprz) -->
+### Пример 49: [Извлечение объекта и размещение на прозрачном слое](https://x.com/nglprz/status/1961494974555394068)（от [@nglprz](https://x.com/icreatelife)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case49/input.jpg" width="300" alt="Input Image"> | <img src="images/case49/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+извлеки [самурая] и помести на прозрачный фон
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为需要展示的产品**
+> Замените текст в **[квадратных скобках]** на объект, который вам нужно извлечь.
 
-<!-- 例 54: 动漫雕像放入现实（by @riddi0908） -->
-### 例 54: [动漫雕像放入现实](https://x.com/riddi0908/status/1963758463135412699)（by [@riddi0908](https://x.com/riddi0908)）
 
-| 输入 | 输出 |
+<!-- Case 50: Outpainting / Checkerboard Repair (by @bwabbage) -->
+### Пример 50: [Восстановление изображения (Outpainting)](https://x.com/bwabbage/status/1962903212937130450)（от [@bwabbage](https://x.com/bwabbage)）
+
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case54/input.jpg" width="300" alt="输入图片"> | <img src="images/case54/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case50/input.jpg" width="300" alt="Input Image"> | <img src="images/case50/output.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить изображение, содержащее прозрачные области в виде шахматной доски
 
-**提示词:**
+**Промпт:**
 
 ```
-一幅写实的摄影作品。这个人的巨型雕像被安放在东京市中心的广场上，人们仰望着它。
+Восстанови части изображения с шахматной доской (прозрачные) и создай цельное, связное фото.
 ```
 
-<!-- 例 55: 痛车制作（by @riddi0908） -->
-### 例 55: [痛车制作](https://x.com/riddi0908/status/1963422536819249239)（by [@riddi0908](https://x.com/riddi0908)）
+<!-- Case 51: Turn Old Map/Scene into Modern-Looking Photo (by @levelsio) -->
+### Пример 51: [Старая карта → Фотография исторической сцены](https://x.com/levelsio/status/1961595333034598487)（от [@levelsio](https://x.com/levelsio)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case55/input.jpg" width="300" alt="输入图片"> | <img src="images/case55/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case51/input.jpg" width="300" alt="Input Image"> | <img src="images/case51/output.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить историческое референсное изображение
 
-**提示词:**
+**Промпт:**
 
 ```
-打造一张专业的跑车照片，以动漫风格的人物图案作为“痛车”（彩绘汽车）的设计，拍摄地点为著名的旅游景点或地标。汽车上醒目的大型动漫人物插图，构图简洁干净。人物图案应采用鲜艳的动漫艺术风格，色彩大胆，细节清晰。将车辆放置在自然光线充足的知名旅游景点或风景区，以展现车辆的运动外观和人物图案。运用专业的汽车摄影技巧，并结合适当的景深，突出“痛车”图案，同时融入风景背景，提升旅游吸引力，适合用于促销或爱好者营销材料。
+полноцветная фотография. Новый Амстердам в 1660 году. убедись, что цвета полностью современные, как будто фотография сделана сегодня.
 ```
 
-<!-- 例 56: 漫画构图（by @namaedousiyoka） -->
-### 例 56: [漫画构图](https://x.com/namaedousiyoka/status/1962461786181161340)（by [@namaedousiyoka](https://x.com/namaedousiyoka)）
+<!-- Case 52: Fashion Moodboard Collage (by @tetumemo) -->
+### Пример 52: [Коллаж-мудборд моды](https://x.com/tetumemo/status/1962480699904282861)（от [@tetumemo](https://x.com/tetumemo)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case56/input.jpg" width="200" alt="输入图片"> <img src="images/case56/input2.jpg" width="200" alt="输入图片">| <img src="images/case56/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case52/input.jpg" width="300" alt="Input Image"> | <img src="images/case52/output.jpg" width="300" alt="Output Result"> |
 
+**Ввод:** Необходимо загрузить референсное изображение
 
-**输入:** 需上传一张人物参考图像和场景构图参考图像
-
-<!-- 例 57: 漫画风格转换（by @nobisiro_2023） -->
-### 例 57: [漫画风格转换](https://x.com/nobisiro_2023/status/1961231347986698371)（by [@nobisiro_2023](https://x.com/nobisiro_2023)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case57/input.jpg" width="300" alt="输入图片"> |<img src="images/case57/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-将输入的图片处理为黑白漫画风格线稿
+Коллаж-мудборд моды. Окружи портрет вырезками отдельных предметов одежды, которые надеты на модель. Добавь рукописные заметки и эскизы игривым шрифтом в стиле маркера, а также укажи название бренда и источник каждого предмета на английском языке. Общая эстетика должна быть креативной и милой.
 ```
 
-<!-- 例 58: 等距全息投影图（by @tetumemo） -->
-### 例 58: [等距全息投影图](https://x.com/tetumemo/status/1964574226155000312)（by [@tetumemo](https://x.com/tetumemo)）
+<!-- Case 53: Cute, Premium Product Photo (by @azed_ai) -->
+### Пример 53: [Изящное и милое фото продукта](https://x.com/azed_ai/status/1962878353784066342)（от [@azed_ai](https://x.com/azed_ai)）
 
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case58/input.jpg" width="300" alt="输入图片"> |<img src="images/case58/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张线稿参考图像
-
-**提示词:**
-
-```
-根据上传的图像，仅用线框进行全息化
-```
-
-<!-- 例 59: Minecraft 风格场景生成（by @tetumemo） -->
-### 例 59: [Minecraft 风格场景生成](https://x.com/tetumemo/status/1964860047705743700)（by [@tetumemo](https://x.com/tetumemo)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case59/input.jpg" width="300" alt="输入图片"> |<img src="images/case59/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张google map参考图像
-
-**提示词:**
-
-```
-使用此位置将​​地标制作成游戏 Minecraft 的 HD-2D 风格的等距图像（仅建筑物）。
-```
-
-<!-- 例 60: 材质球赋予材质（by @ZHO_ZHO_ZHO） -->
-### 例 60: [材质球赋予材质](https://x.com/ZHO_ZHO_ZHO/status/1964995347505352794)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 示例 |
+| Вывод |
 |:---:|
-| <img src="images/case60/case.jpg" width="300" alt="示例"> |
+| <img src="images/case53/output.jpg" width="300" alt="Output Result"> |
 
-
-**输入:** 需上传一张参考图像和一张材质球图像
-
-**提示词:**
+**Промпт:**
 
 ```
-将图2的材质用在图1的logo上，3d立体呈现，渲染c4d，纯色背景
-```
-
-<!-- 例 61: 平面图3D渲染（by @op7418） -->
-### 例 61: [平面图3D渲染](https://x.com/op7418/status/1961329148271513695)（by [@op7418](https://x.com/op7418)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case61/input.jpg" width="300" alt="输入图片"> |<img src="images/case61/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张平面参考图像
-
-**提示词:**
-
-```
-帮我把这个住宅平面图转换为房屋的等距照片级真实感 3D 渲染。
-```
-
-<!-- 例 62: 重置相机参数（by @hckinz） -->
-### 例 62: [重置相机参数](https://x.com/hckinz/status/1962803203063586895)（by [@hckinz](https://x.com/hckinz)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case62/input.jpg" width="300" alt="输入图片"> |<img src="images/case62/output.jpg" width="300" alt="输出结果"> |
-
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-RAW-ISO [100] - [F28-1/200 24mm] 设置 
+Рекламная фотография высокого разрешения реалистичного, миниатюрного [ПРОДУКТА], аккуратно зажатого между большим и указательным пальцами человека. чистый и белый фон, студийное освещение, мягкие тени. Рука ухоженная, естественного тона кожи, и расположена так, чтобы подчеркнуть форму и детали продукта. Продукт выглядит чрезвычайно маленьким, но гипердетализированным и точно соответствующим бренду, расположен по центру кадра с малой глубиной резкости. Имитирует фотографию люксового продукта и минималистичный коммерческий стиль.
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为需要的相机参数**
+> Замените текст в **[квадратных скобках]** на продукт, который вы хотите показать.
 
-<!-- 例 63: 制作证件照（by @songguoxiansen） -->
-### 例 63: [制作证件照](https://x.com/songguoxiansen/status/1963602241610551609)（by [@songguoxiansen](https://x.com/songguoxiansen)）
+<!-- Case 54: Place an Anime Statue in Reality (by @riddi0908) -->
+### Пример 54: [Размещение аниме-статуи в реальной жизни](https://x.com/riddi0908/status/1963758463135412699)（от [@riddi0908](https://x.com/riddi0908)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case63/input.jpg" width="300" alt="输入图片"> |<img src="images/case63/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case54/input.jpg" width="300" alt="Input Image"> | <img src="images/case54/output.jpg" width="300" alt="Output Result"> |
 
+**Ввод:** Необходимо загрузить референсное изображение
 
-**输入:** 需上传一张人物参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-截取图片人像头部，帮我做成2寸证件照，要求:
-  1、蓝底
-  2、职业正装
-  3、正脸
-  4、微笑
+Реалистичная фотография. Гигантская статуя этого человека установлена на площади в центре Токио, и люди смотрят на нее снизу вверх.
 ```
 
-<!-- 例 64: 场景 A6 折叠卡（by @Gdgtify） -->
-### 例 64: [场景 A6 折叠卡](https://x.com/Gdgtify/status/19649795223709287319)（by [@Gdgtify](https://x.com/Gdgtify)）
+<!-- Case 55: Itasha (Anime-Themed Car) Creation (by @riddi0908) -->
+### Пример 55: [Создание автомобиля-итася](https://x.com/riddi0908/status/1963422536819249239)（от [@riddi0908](https://x.com/riddi0908)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case64/input.jpg" width="300" alt="输入图片"> |<img src="images/case64/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case55/input.jpg" width="300" alt="Input Image"> | <img src="images/case55/output.jpg" width="300" alt="Output Result"> |
 
+**Ввод:** Необходимо загрузить референсное изображение
 
-**输入:** 需上传一张参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-绘制一个 A6 折叠卡：打开时它会展示一个完整的 3D 球形小屋，里面有一座微型的纸花园和盆景树。
+Создай профессиональную фотографию спортивного автомобиля с артом персонажа в аниме-стиле в качестве дизайна итася (раскрашенный автомобиль), снятую у известной туристической достопримечательности или живописного места. На автомобиле размещены большие, заметные иллюстрации аниме-персонажа с простой и чистой композицией дизайна. Арт персонажа должен быть нарисован в ярком аниме-стиле с насыщенными цветами и четкими деталями. Расположи автомобиль у узнаваемого туристического места или живописной локации с хорошим естественным освещением, которое подчеркивает как спортивный вид автомобиля, так и арт персонажа. Используй профессиональные техники автомобильной фотографии с правильной глубиной резкости, чтобы выделить дизайн итася, одновременно включая живописный фон для туристической привлекательности, подходящий для рекламных или энтузиастских маркетинговых материалов.
 ```
 
-<!-- 例 65: 设计国际象棋（by @Gdgtify） -->
-### 例 65: [设计国际象棋](https://x.com/Gdgtify/status/1964679042994442454)（by [@Gdgtify](https://x.com/Gdgtify)）
+<!-- Case 56: Manga Composition (by @namaedousiyoka) -->
+### Пример 56: [Композиция в стиле манги](https://x.com/namaedousiyoka/status/1962461786181161340)（от [@namaedousiyoka](https://x.com/namaedousiyoka)）
 
-| 示例 |
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case56/input.jpg" width="200" alt="Character Reference"> <img src="images/case56/input2.jpg" width="200" alt="Scene Composition Reference"> | <img src="images/case56/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение персонажа и референсное изображение композиции сцены
+
+<!-- Case 57: Manga Style Conversion (by @nobisiro_2023) -->
+### Пример 57: [Преобразование в стиль манги](https://x.com/nobisiro_2023/status/1961231347986698371)（от [@nobisiro_2023](https://x.com/nobisiro_2023)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case57/input.jpg" width="300" alt="Input Image"> | <img src="images/case57/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+Преобразуй входное фото в черно-белый контурный рисунок в стиле манги.
+```
+
+<!-- Case 58: Isometric Holographic Wireframe (by @tetumemo) -->
+### Пример 58: [Изометрический голографический каркас](https://x.com/tetumemo/status/1964574226155000312)（от [@tetumemo](https://x.com/tetumemo)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case58/input.jpg" width="300" alt="Input Image"> | <img src="images/case58/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение с контурным рисунком
+
+**Промпт:**
+
+```
+На основе загруженного изображения преобразуй его в голографическое представление, используя только каркасные линии.
+```
+
+<!-- Case 59: Minecraft-Style Scene (by @tetumemo) -->
+### Пример 59: [Генерация сцены в стиле Minecraft](https://x.com/tetumemo/status/1964860047705743700)（от [@tetumemo](https://x.com/tetumemo)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case59/input.jpg" width="300" alt="Input Image"> | <img src="images/case59/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение из Google Maps
+
+**Промпт:**
+
+```
+Используя это местоположение, создай изометрическое HD-2D изображение достопримечательности (только здания) в стиле Minecraft.
+```
+
+<!-- Case 60: Apply Material to Logo (by @ZHO_ZHO_ZHO) -->
+### Пример 60: [Применение сферы с материалом к логотипу](https://x.com/ZHO_ZHO_ZHO/status/1964995347505352794)（от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
+
+| Пример |
 |:---:|
-| <img src="images/case65/case.jpg" width="300" alt="示例"> |
+| <img src="images/case60/case.jpg" width="300" alt="Example"> |
 
+**Ввод:** Необходимо загрузить референсное изображение и изображение сферы с материалом
 
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-绘制一个棋盘和受此图片启发的 3D 打印棋子
-```
-
-<!-- 例 66: 分割对照样式照片（by @fofrAI） -->
-### 例 66: [分割对照样式照片](https://x.com/fofrAI/status/1964818395381248397)（by [@fofrAI](https://x.com/fofrAI)）
-
-| 示例 |
-|:---:|
-| <img src="images/case66/case.jpg" width="300" alt="示例"> |
-
-**提示词:**
+**Промпт:**
 
 ```
-一张卧室的照片，从中间分开，左边是 2018 年，右边是 1964 年，是同一个房间
+Примени материал с Изображения 2 к логотипу на Изображении 1, представь его как 3D-объект, отрендери в стиле, похожем на C4D, с однотонным фоном.
 ```
 
-<!-- 例 67: 珠宝首饰设计（by @Gdgtify） -->
-### 例 67: [珠宝首饰设计](https://x.com/Gdgtify/status/1964419331342909777)（by [@Gdgtify](https://x.com/Gdgtify)）
+<!-- Case 61: Floor Plan → 3D Render (by @op7418) -->
+### Пример 61: [3D-рендер плана этажа](https://x.com/op7418/status/1961329148271513695)（от [@op7418](https://x.com/op7418)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case67/input.jpg" width="300" alt="输入图片"> |<img src="images/case67/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case61/input.jpg" width="300" alt="Input Image"> | <img src="images/case61/output.jpg" width="300" alt="Output Result"> |
 
+**Ввод:** Необходимо загрузить референсное изображение плана этажа
 
-**输入:** 需上传一张参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-将这张图像变成一条包含 5 件首饰的系列。
+Преобразуй этот план жилого этажа в изометрический, фотореалистичный 3D-рендер дома.
 ```
 
-<!-- 例 68: 周边设计（by @0xFramer） -->
-### 例 68: [周边设计](https://x.com/0xFramer/status/1964992117324886349)（by [@0xFramer](https://x.com/0xFramer)）
+<!-- Case 62: Reset Camera Parameters (by @hckinz) -->
+### Пример 62: [Сброс параметров камеры](https://x.com/hckinz/status/1962803203063586895)（от [@hckinz](https://x.com/hckinz)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case68/input.jpg" width="300" alt="输入图片"> |<img src="images/case68/output.jpg" width="300" alt="输出结果"> |
+| <img src="images/case62/input.jpg" width="300" alt="Input Image"> | <img src="images/case62/output.jpg" width="300" alt="Output Result"> |
 
+**Ввод:** Необходимо загрузить референсное изображение
 
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-用这个角色图像创建商品
-```
-
-<!-- 例 69: 模型全息投影（by @UNIBRACITY） -->
-### 例69：[模型全息投影](https://x.com/UNIBRACITY/status/1966122746288681461)（by [@UNIBRACITY](https://x.com/UNIBRACITY)）
-
-| 输出 |
-|:---:|
-|<img src="images/case69/output.png" width="300" alt="输出结果"> |
-
-**提示词:**
+**Промпт:**
 
 ```
-超逼真的产品照片。
-主体：虚拟全息角色 [CHARACTER]，悬浮于现代桌面上直径 120 毫米的圆形全息投影仪上方。
-
-投影源规则：
-- 如果输入参考对象是 3D 物体，则在投影仪旁边放置一台桌面 3D 扫描仪。
-将参考对象放置在扫描板上。
-投影仪上方的全息图由扫描对象生成。
-- 如果输入参考对象是 2D 图像，则在桌面上放置一台带显示器的现代 PC。
-在显示器屏幕上显示参考图像。
-投影仪上方的全息图由该屏幕内容生成。
-
-全息图渲染规则：
-- 角色始终显示为半透明的体积图像，背景隐约可见。
-- 无光束、无粒子、无实体雕像表面。
-- 均衡的解剖结构（头身比例为 1/7-1/8），比例正确。
-- 姿势自然，轮廓清晰。
-- 头发、衣服褶皱和配饰可见但半透明。
-- 面部清晰富有表现力，在 1000 像素裁剪下清晰可读。
-- 无版权角色、无品牌设计、无 IP 标识。
-
-环境：现代办公桌，带投影仪底座 + 辅助设备（扫描仪或显示器）。
-相机：85-100 毫米镜头，3/4 英雄角，眼平，f/11-f/16，ISO100，三脚架。
-照明：桌面柔和照明；全息人物仅由体积光定义。
-背景：无缝黑色工作室，反射微妙。
-
-输出：4:5，2048×2560。
-
-负片：无文字、无水印、无标识、无品牌、版权角色、系列 IP、商标设计、树脂、PVC、实体雕像、不透明表面、玩具光泽、光束、扫描线、点、失真、多余数字。
-采样：确定性，Seed=12345，Temperature=0。
+Настройки RAW-ISO [100] - [F2.8-1/200 24мм]
 ```
 
 > [!NOTE]
-> **将 [方括号] 中的文字改为您输入的角色**
+> Замените значения в **[квадратных скобках]** на желаемые параметры камеры.
 
-<!-- 例 70: 巨型人物脚手架（by @songguoxiansen） -->
-### 例70： [巨型人物脚手架](https://x.com/songguoxiansen/status/1965960484684968234)（by [@songguoxiansen](https://x.com/songguoxiansen)）
+<!-- Case 63: Make an ID Photo (by @songguoxiansen) -->
+### Пример 63: [Создание фото на документы](https://x.com/songguoxiansen/status/1963602241610551609)（от [@songguoxiansen](https://x.com/songguoxiansen)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case70/input.png" width="300" alt="输入图片"> |<img src="images/case70/output.png" width="300" alt="输出结果"> |
+| <img src="images/case63/input.jpg" width="300" alt="Input Image"> | <img src="images/case63/output.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需上传一张人物参考图像
+**Ввод:** Необходимо загрузить портретное референсное изображение
 
-**提示词:**
+**Промпт:**
 
 ```
-图片中人物站着自拍的超写实3D渲染图。画面里这个巨型人物全身环绕着庞大的脚手架，脚手架上有许多身形微小的建筑工人正在作业。场景设定在一个城市广场，周围是现代化建筑，还有行驶中的交通工具（轿车、公交车）、行人，以及晴朗明亮的湛蓝天空。整体细节丰富，呈现出照片级的真实质感，且采用了电影级灯光效果。
+Обрежь голову и создай фото на документы размером 2 дюйма с:
+  1. Синим фоном
+  2. Профессиональной деловой одеждой
+  3. Лицом анфас
+  4. Легкой улыбкой
 ```
 
-<!-- 例 71: 遥感影像建筑物提取（by @lehua555） -->
-### 例71： [遥感影像建筑物提取](https://x.com/lehua555/status/1966124995949863310)（by [@lehua555](https://x.com/lehua555)）
+<!-- Case 64: Scene A6 Folding Card (by @Gdgtify) -->
+### Пример 64: [Складная открытка A6 со сценой](https://x.com/Gdgtify/status/19649795223709287319)（от [@Gdgtify](https://x.com/Gdgtify)）
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case71/input.png" width="300" alt="输入图片"> |<img src="images/case71/output.png" width="300" alt="输出结果"> |
+| <img src="images/case64/input.jpg" width="300" alt="Input Image"> | <img src="images/case64/output.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需上传一张遥感图像
+**Ввод:** Необходимо загрузить референсное изображение
 
-**提示词:**
-
-```
-删除影像中除建筑以外的地方
-```
-
-<!-- 例 72: 部件提取（by @tetumemo） -->
-### 例72： [部件提取](https://x.com/tetumemo/status/1965721026849018141)（by [@tetumemo](https://x.com/tetumemo)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case72/input.png" width="300" alt="输入图片"> |<img src="images/case72/output.png" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张模型的图像
-
-**提示词:**
+**Промпт:**
 
 ```
-将各部件切割出来，制作成保留有全息图的模型表
+Нарисуй складную открытку A6: когда она открывается, внутри появляется полный 3D-сферический крошечный домик с миниатюрным бумажным садом и деревом бонсай.
 ```
 
-<!-- 例 73: 移除汉堡的配料（by @bind_lux） -->
-### 例73： [移除汉堡的配料](https://x.com/bind_lux/status/1965869157125402654)（by [@bind_lux](https://x.com/bind_lux)，本案例由[@jeanlucaslima](https://github.com/jeanlucaslima)提供）
+<!-- Case 65: Design a Chess Set (by @Gdgtify) -->
+### Пример 65: [Дизайн шахматного набора](https://x.com/Gdgtify/status/1964679042994442454)（от [@Gdgtify](https://x.com/Gdgtify)）
 
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case73/input.jpg" width="300" alt="输入图片"> |<img src="images/case73/output.jpg" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张汉堡的图像
-
-**提示词:**
-
-```
-把汉堡里的所有配料都取出来，只留下上下两片面包。面包之间留出空隙，就像馅料还在里面一样。
-```
-
-<!-- 例 74：图像高清修复（by @op7418） -->
-### 例74：[图像高清修复](https://x.com/op7418/status/1960540798573011209)（by [@op7418](https://x.com/op7418)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case74/input.png" width="300" alt="输入图片"> |<img src="images/case74/output.png" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-增强这张老图像的分辨率并添加适当的纹理细节，用现代动漫技术重新诠释它。
-```
-
-<!-- 例 75：图片生成微缩场景（by @techhalla） -->
-### 例75：[图片生成微缩场景](https://x.com/techhalla/status/1962088250199163285)（by [@techhalla](https://x.com/techhalla)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case75/input.png" width="300" alt="输入图片"> |<img src="images/case75/output.png" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-将图像转换为等距视图
-```
-
-<!-- 例 76：科普漫画（by @op7418） -->
-### 例76：[科普漫画](https://x.com/op7418/status/1961811274683310110)（by [@op7418](https://x.com/op7418)）
-
-| 输出 |
+| Пример |
 |:---:|
-|<img src="images/case76/output.png" width="300" alt="输出结果"> |
+| <img src="images/case65/case.jpg" width="300" alt="Example"> |
 
-**提示词:**
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
 
 ```
-请帮我生成多张 16:9 的涂鸦风格图片，向中学生解释“未来”的概念。图片应采用一致的彩色粗铅笔手绘风格，信息丰富，包含英文文本，使用纯色背景，卡片周围有轮廓，并包含统一的标题，类似于 PowerPoint 演示文稿。
+Нарисуй шахматную доску и набор шахматных фигур для 3D-печати, вдохновленных этим изображением.
 ```
 
-<!-- 例 77：自定义人物的表情包生成（by @vista8） -->
-### 例77：[自定义人物的表情包生成](https://x.com/vista8/status/1966164427243458977)（by [@vista8](https://x.com/vista8)）
+<!-- Case 66: Split-Era Room Photo (by @fofrAI) -->
+### Пример 66: [Фото в стиле разделенного контраста](https://x.com/fofrAI/status/1964818395381248397)（от [@fofrAI](https://x.com/fofrAI)）
 
-| 输入 | 输出 |
+| Пример |
+|:---:|
+| <img src="images/case66/case.jpg" width="300" alt="Example"> |
+
+**Промпт:**
+
+```
+Фотография спальни, разделенной пополам: левая сторона — 2018 год, а правая — 1964 год, в одной и той же комнате.
+```
+
+<!-- Case 67: Jewelry Collection Design (by @Gdgtify) -->
+### Пример 67: [Дизайн ювелирной коллекции](https://x.com/Gdgtify/status/1964419331342909777)（от [@Gdgtify](https://x.com/Gdgtify)）
+
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case77/input.png" width="300" alt="输入图片"> |<img src="images/case77/output.png" width="300" alt="输出结果"> |
+| <img src="images/case67/input.jpg" width="300" alt="Input Image"> | <img src="images/case67/output.jpg" width="300" alt="Output Result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить референсное изображение
 
-**提示词:**
+**Промпт:**
 
 ```
-用图2形象，参图一的各种姿势生成 [x] 个表情包
+Преврати это изображение в ювелирную коллекцию из 5 предметов.
 ```
+
+<!-- Case 68: Merchandise Design (by @0xFramer) -->
+### Пример 68: [Дизайн мерчандайза](https://x.com/0xFramer/status/1964992117324886349)（от [@0xFramer](https://x.com/0xFramer)）
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case68/input.jpg" width="300" alt="Input Image"> | <img src="images/case68/output.jpg" width="300" alt="Output Result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение
+
+**Промпт:**
+
+```
+Создай мерчандайз, используя это изображение персонажа.
+```
+
+<!-- Example 69: Model Holographic Projection (by @UNIBRACITY) -->
+### Пример 69: [Голографическая проекция модели](https://x.com/UNIBRACITY/status/1966122746288681461) (от [@UNIBRACITY](https://x.com/UNIBRACITY))
+
+| Вывод |
+|:---:|
+|<img src="images/case69/output.png" width="300" alt="Output result"> |
+
+**Промпт:**
+
+```
+Ультрареалистичное фото продукта.  
+Объект: виртуальный голографический персонаж [ПЕРСОНАЖ], парящий над круглым голографическим проектором Ø120 мм, установленным на современном столе.  
+
+Правила источника проекции:  
+- Если входной референс — 3D-объект → покажи настольный 3D-сканер рядом с проектором.  
+  Помести референсный объект на платформу сканера.  
+  Голограмма над проектором генерируется из этого отсканированного объекта.  
+- Если входной референс — 2D-изображение → покажи современный ПК с монитором на столе.  
+  Отобрази референсное изображение на экране монитора.  
+  Голограмма над проектором генерируется из содержимого этого экрана.  
+
+Правила рендеринга голограммы:  
+- Персонаж всегда выглядит как полупрозрачное объемное изображение, фон слабо виден сквозь него.  
+- Без лучей, без частиц, без сплошных поверхностей статуи.  
+- Сбалансированная анатомия (соотношение головы к телу 1/7–1/8), правильные пропорции.  
+- Естественная поза с четким силуэтом.  
+- Волосы, складки одежды и аксессуары видны, но полупрозрачны.  
+- Лицо четкое и выразительное, читаемое при увеличении до 1000 пикселей.  
+- Без персонажей, защищенных авторским правом, без брендированных дизайнов, без логотипов IP.  
+
+Окружение: современный стол с основанием проектора + условное устройство (сканер или монитор).  
+Камера: объектив 85–100 мм, ракурс 3/4, на уровне глаз, f/11–f/16, ISO100, штатив.  
+Освещение: стол мягко освещен; голографическая фигура определяется только объемным светом.  
+Фон: бесшовная черная студия с тонкими отражениями.  
+
+Вывод: 4:5, 2048×2560.  
+
+Негатив: без текста, без водяных знаков, без логотипов, без брендов, без защищенных авторским правом персонажей, без IP франшиз, без товарных знаков, без смолы, без ПВХ, без физических статуй, без непрозрачных поверхностей, без игрушечного блеска, без лучей, без строчной развертки, без точек, без искажений, без лишних пальцев.  
+Сэмплинг: детерминированный, seed=12345, температура=0.
+```
+
 > [!NOTE]
-> **将 [方括号] 中的文字改为需要的表情包数量**
+> **Замените текст в [квадратных скобках] на вашего персонажа**
 
-<!-- 例 78：恢复被吃了部分的食物（by @googlejapan） -->
-### 例78：[恢复被吃了部分的食物](https://x.com/googlejapan/status/1965762180688584916)（by [@googlejapan](https://x.com/googlejapan)）
+<!-- Example 70: Giant Figure Scaffolding (by @songguoxiansen) -->
+### Пример 70: [Гигантская фигура в строительных лесах](https://x.com/songguoxiansen/status/1965960484684968234) (от [@songguoxiansen](https://x.com/songguoxiansen))
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case78/input.png" width="300" alt="输入图片"> |<img src="images/case78/output.png" width="300" alt="输出结果"> |
+| <img src="images/case70/input.png" width="300" alt="Input image"> | <img src="images/case70/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить референсную фотографию человека.
 
-**提示词:**
+**Промпт:**
 
 ```
-将这个吃了一半的 [XX] 恢复到吃之前的状态。
+Гиперреалистичный 3D-рендер человека с изображения, стоящего и делающего селфи. 
+Гигантская фигура окружена массивными строительными лесами, на которых работают множество крошечных строителей. 
+Сцена разворачивается на городской площади, окруженной современными зданиями, движущимися транспортными средствами (машины, автобусы), пешеходами, 
+и ярким ясным голубым небом. Общая детализация богатая, с фотореалистичной текстурой и кинематографическими световыми эффектами.
 ```
-> [!NOTE]
-> **将 [方括号] 中的文字改为输入的食物名称**
 
-<!-- 例 79：格斗游戏界面制作（by @NanoBanana_labs） -->
-### 例79：[格斗游戏界面制作](https://x.com/NanoBanana_labs/status/1965827209534517654)（by [@NanoBanana_labs](https://x.com/NanoBanana_labs)）
+<!-- Example 71: Building Extraction from Remote Sensing Image (by @lehua555) -->
+### Пример 71: [Извлечение зданий из спутникового снимка](https://x.com/lehua555/status/1966124995949863310) (от [@lehua555](https://x.com/lehua555))
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case79/input.png" width="300" alt="输入图片"> |<img src="images/case79/output.png" width="300" alt="输出结果"> |
+| <img src="images/case71/input.png" width="300" alt="Input image"> | <img src="images/case71/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить спутниковый снимок.
 
-**提示词:**
+**Промпт:**
 
 ```
-创建一个中速动作场景，让两个主体以四分之三视角清晰对焦，摆出武术格斗姿势。他们身处同一个电影场景中。移除中间的线条，背景中是紫色外星世界中模糊的摇摇欲坠的废墟。该场景拍摄于日出时分。现代格斗游戏生命值条，莫顿对决死亡种子。强力招式。HUD风格屏幕特效。在生命值条中添加每个角色的缩略图。炫酷炫光！
+Удали с изображения все, кроме зданий.
 ```
 
-<!-- 例 80：切割模型（by @old_pgmrs_will） -->
-### 例80：[切割模型](https://x.com/old_pgmrs_will/status/1966053092371444029)（by [@old_pgmrs_will](https://x.com/old_pgmrs_will)）
+<!-- Example 72: Component Extraction (by @tetumemo) -->
+### Пример 72: [Извлечение компонентов](https://x.com/tetumemo/status/1965721026849018141) (от [@tetumemo](https://x.com/tetumemo))
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case80/input.png" width="300" alt="输入图片"> |<img src="images/case80/output.png" width="300" alt="输出结果"> |
+| <img src="images/case72/input.png" width="300" alt="Input image"> | <img src="images/case72/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить изображение модели.
 
-**提示词:**
+**Промпт:**
 
 ```
-创建这辆车的剖面图，一侧显示完整的外部结构，另一侧显示内部发动机和座椅。保持比例准确，细节逼真。
+Вырежи каждый компонент и создай лист модели, сохранив голограмму.
 ```
 
-<!-- 例 81：海盗通缉书（by @AI_Kei75） -->
-### 例81：[海盗通缉书](https://x.com/old_pgmrs_will/status/1966053092371444029)（by [@AI_Kei75](https://x.com/AI_Kei75)）
+<!-- Example 73: Remove Burger Ingredients (by @bind_lux) -->
+### Пример 73: [Удаление ингредиентов из бургера](https://x.com/bind_lux/status/1965869157125402654) (от [@bind_lux](https://x.com/bind_lux), пример предоставлен [@jeanlucaslima](https://github.com/jeanlucaslima))
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case81/input.png" width="300" alt="输入图片"> |<img src="images/case81/output.png" width="300" alt="输出结果"> |
+| <img src="images/case73/input.jpg" width="300" alt="Input image"> | <img src="images/case73/output.jpg" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить изображение бургера.
 
-**提示词:**
+**Промпт:**
 
 ```
-使用原始图像，在羊皮纸上重新绘制一张海盗通缉令。
-棕色单色，带有陈旧羊皮纸的纹理。
-保留原始图像的风格和人物设计，直至最小的细节，并将其大尺寸粘贴在通缉令的顶部。
-脸部特写。让角色戴上海盗帽。
-在海报底部写上赏金金额。赏金金额将是随机的，并使用虚拟的货币单位。
-在赏金金额下方，用小写字母写出罪行。请使用虚拟语言。不得使用英文或中文。
+Удали все ингредиенты из бургера и оставь только верхнюю и нижнюю булочки. Оставь между ними зазор, сохранив то же расстояние, как если бы начинка все еще была внутри.
 ```
 
-<!-- 例 82：周边展示货架（by @tokyo_Valentine） -->
-### 例82：[周边展示货架](https://x.com/tokyo_Valentine/status/1966888938838298727)（by [@tokyo_Valentine](https://x.com/tokyo_Valentine)）
+<!-- Example 74: High-Resolution Image Restoration (by @op7418) -->
+### Пример 74: [Восстановление изображения в высоком разрешении](https://x.com/op7418/status/1960540798573011209) (от [@op7418](https://x.com/op7418))
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case82/input.png" width="300" alt="输入图片"> |<img src="images/case82/output.png" width="300" alt="输出结果"> |
+| <img src="images/case74/input.png" width="300" alt="Input image"> | <img src="images/case74/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить референсное изображение.
 
-**提示词:**
+**Промпт:**
 
 ```
-移除这幅插画的背景，将其制作成类似手办的周边商品。
-图片：照片级写实
-地点：
-日本一家虚构的便利店的货架。可爱又流行的氛围与整齐摆放的插画周边商品相得益彰。店内空间梦幻般明亮，别具一格，营造出一个让粉丝们兴奋不已的特殊空间。
-
-人物：
-这些周边商品陈列在货架上。
-
-周边商品：
-屏幕中央摆放着两个约50厘米长的大型人偶（醒目展示）
-亚克力支架（原作变形版）
-
-Q版人偶（原作变形版）
-
-抱枕（大型印刷品，醒目展示）
-
-拼图（角色造型）
-
-文具（笔记本、笔、文件夹等，原作变形版）
-
-纸板（原作变形版）
-
-毛绒玩具（原作变形版）
-
-陈列方式：
-周边商品整齐地摆放在货架上，既保留了便利店的氛围，又充满了对角色的喜爱。这些商品的摆放方式让少女粉丝们忍不住想要拿起来。
-
-整体氛围：
-如梦似幻的周边商品销售空间。可爱与流行元素占据主导地位，虽然只是一家便利店，却被打造成“粉丝活动圣地”。
-分辨率：4K，4000像素：3000像素
+Увеличь разрешение этого старого изображения и добавь соответствующие текстурные детали, переосмыслив его с помощью современных техник аниме.
 ```
 
-<!-- 例 83：漫展展台（by @tokyo_Valentine） -->
-### 例83：[漫展展台](https://x.com/tokyo_Valentine/status/1967174466636792287)（by [@tokyo_Valentine](https://x.com/tokyo_Valentine)）
+<!-- Example 75: Generate Miniature Scene from Image (by @techhalla) -->
+### Пример 75: [Генерация миниатюрной сцены из изображения](https://x.com/techhalla/status/1962088250199163285) (от [@techhalla](https://x.com/techhalla))
 
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case83/input.png" width="300" alt="输入图片"> |<img src="images/case83/output.png" width="300" alt="输出结果"> |
+| <img src="images/case75/input.png" width="300" alt="Input image"> | <img src="images/case75/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить референсное изображение.
 
-**提示词:**
-
-```
-擦除背景，将人物替换为以下内容：
-
-Cosplayer 和角色周边
-
-角色/主题：
-基于插画的角色周边
-
-发型、眼妆和外貌：
-（请关注周边商品，而非角色本身。）
-
-主角：一位 Cosplayer 手持人偶，站在屏幕中央。
-
-地点：
-漫画市集（同人志销售活动）。
-宽敞的展位上，周边商品摆放在桌子和货架上，气氛热烈而充满期待。
-
-周边商品：
-• 一个约 100 厘米的大型人偶摆放在展位中央，引人注目。
-• 角色展示在 80 英寸的液晶显示屏上。
-• 亚克力立架
-• 迷你手办（变形）
-• 抱枕（大型全身人物印花）
-• 拼图（使用人物原图）
-• 文具（笔记本、笔、透明文件夹等）
-• 桌垫
-• 毛绒玩具（变形）
-展览/陈列：
-• 商品整齐排列于展位各处，营造统一的氛围。
-• 运用类似同人志售卖会的桌子和架子，鼓励粉丝们选购商品。
-• 以活力四射的访客为背景，将展位打造为一个特别的“粉丝圣地”。
-整体基调：
-梦幻般的售卖空间。
-在强调可爱和流行元素的同时，该空间也唤起了同人志活动特有的热情，营造出“粉丝活动圣地”的氛围。
-人潮涌动。
-
-图像质量：逼真，4K（4000像素 x 3000像素）
-```
-
-<!-- 例 84：线稿转涂鸦画（by @hAru_mAki_ch） -->
-### 例84：[线稿转涂鸦画](https://x.com/hAru_mAki_ch/status/1966877088365113722)（by [@tokyo_Valentine](https://x.com/hAru_mAki_ch)）
-
-| 输入 | 输出 |
-|:---:|:---:|
-| <img src="images/case84/input.png" width="300" alt="输入图片"> |<img src="images/case84/output.png" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-我上传的图画书看起来就像是一个五岁小孩画的。
+Преобразуй изображение в изометрический вид
 ```
 
-<!-- 例 85：现代美术展览空间（by @UNIBRACITY） -->
-### 例85：[现代美术展览空间](https://x.com/UNIBRACITY/status/1967129632093991164)（by [@UNIBRACITY](https://x.com/UNIBRACITY)）
+<!-- Example 76: Educational Comic (by @op7418) -->
+### Пример 76: [Обучающий комикс](https://x.com/op7418/status/1961811274683310110) (от [@op7418](https://x.com/op7418))
 
-| 示例 |
+| Вывод |
 |:---:|
-|<img src="images/case85/output.png" width="300" alt="输出结果"> |
+| <img src="images/case76/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
-
-**提示词:**
+**Промпт:**
 
 ```
-一个以参考图像为主题的前卫当代艺术展览空间。
-整个展厅（20.0 米 x 20.0 米 x 8.0 米）将建筑、灯光、地板、墙面和天花板融入到艺术作品的表达中。
-
-展厅最深处矗立着一面宽 20 米、高 8 米的大型墙体，墙体中央以巨大的艺术形式展现着参考图像中的主题。图像清晰立体，向观者升起，成为整个空间的焦点。
-
-一块由系统生成的展览标题牌将被安装在墙体中央下方。标题必须抽象、象征且富有诗意，并且必须是当代艺术作品。展览不设价格显示。
-
-地板采用反射率为 0.35 至 0.40 的抛光花岗岩。源自参考图像的图案和光线层层叠叠地铺于作品表面，与整个空间产生共鸣，仿佛在回应参观者的脚步。触觉铺路砖颜色相近，浑然一体，但高度仅为5毫米，触感清晰。作品从入口沿直线延伸至大墙，并在作品前形成一个停顿点。观展结束后，参观者自然而然地被引导至右侧的开口（3米宽 x 3米高）。在紧急情况下，地面应急照明可确保1勒克斯的照度。
-
-左右两侧的墙壁和天花板分别以不同的方式诠释了参考图像中某个元素的抽象版本，使作品本身成为一件艺术品。色彩、形态和光线的流动将整个空间统一为一次艺术体验。
-
-参观人数限制为8至25人。所有参观者面向大墙，沿着直线移动，并在停顿点停下。没有人回头看向入口。仅一名工作人员驻守在大墙右侧入口附近。所有面部均经过模糊处理，以保证匿名性。
-
-构图稳定，中心消失点始终位于大墙中心。垂直度在±0.5°以内。地板反射精准，人体自然。双手始终为五指，双眼对称，偏差在3%以内。织物保持平直，无任何变形。
-
-禁止内容：与参考图像无关的元素、缺失或破损的触觉铺路、面向入口的访客、徽标或水印、过度拥挤、玩具般的光泽、2D平板投影、霓虹灯辉光、青橙色调、过饱和、透视崩溃、反射不匹配、解剖异常、多余的肢体、扭曲的面部、过多的轮廓、条纹、晕影。
-
-DoD：整个场馆将是一个围绕参考图像主题的当代艺术作品，整个空间以最内部的结构为中心，形成统一的体验。触觉铺装与光线流动完美同步，形成清晰的停留点。观众将沉浸在空间本身之中，即使在重现过程中，SSIM 也将稳定在 0.95 或以上。
+Помоги мне сгенерировать несколько изображений в стиле дудл с соотношением сторон 16:9, чтобы объяснить понятие "фьючерсы" ученикам средней школы. Изображения должны иметь единый красочный стиль, нарисованный толстым карандашом, быть информативными, содержать английский текст, использовать однотонные фоны, иметь контуры вокруг карточек и включать одинаковые заголовки, как в презентации PowerPoint.
 ```
 
-<!-- 例 86：暗黑哥特塔罗牌（by @ImperfectEngel） -->
-### 例86：[暗黑哥特塔罗牌](https://x.com/ImperfectEngel/status/1961833518163481001)（by [@ImperfectEngel](https://x.com/ImperfectEngel)）
+<!-- Example 77: Custom Character Emoji Pack Generation (by @vista8) -->
+### Пример 77: [Генерация набора эмодзи с пользовательским персонажем](https://x.com/vista8/status/1966164427243458977) (от [@vista8](https://x.com/vista8))
 
-| 示例 |
-|:---:|
-|<img src="images/case86/output.png" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-根据这张图片，生成一张以我为主角的暗黑哥特式塔罗牌。包含[“AI 艺术家 - Shira”]和[咖啡、系着粉色蝴蝶结的白色蓬松胖猫、笔记本电脑、手机、耳机]作为符号，并搭配忧郁的阴影、精致的哥特式边框和神秘的暗黑奇幻氛围。
-```
-> [!NOTE]
-> **将 [方括号] 中的文字改为您需要的设定**
-
-<!-- 例 87：黑白进化图（by @ZHO_ZHO_ZHO） -->
-### 例87：[黑白进化图](https://x.com/ZHO_ZHO_ZHO/status/1965816445008548213)（by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)）
-
-| 输出 |
-|:---:|
-|<img src="images/case87/output.png" width="300" alt="输出结果"> |
-
-**提示词:**
-
-```
-生成 进化的行进 图，极简黑白风格，从最早的猿猴逐渐进化为人再进化为最后的 香蕉
-```
-
-<!-- 例 88：玻璃瓶纪念品（by @NanoBanana_labs） -->
-### 例88：[玻璃瓶纪念品](https://x.com/NanoBanana_labs/status/1967191346017673334)（by [@NanoBanana_labs](https://x.com/NanoBanana_labs)）
-
-| 示例 |
-|:---:|
-|<img src="images/case88/output.png" width="300" alt="输出结果"> |
-
-**输入:** 需上传一张参考图像
-
-**提示词:**
-
-```
-1/7比例的商品化收藏级人偶，以照片中人物为原型，高度写实的风格打造。人偶置于细致的沙滩环境中，沙滩、贝壳和轻柔的海浪交织在一起。整个玩具展示架被封装在一个透明的纪念品玻璃瓶中，使其呈现出高端的微缩立体模型效果，并拥有逼真的光影效果。
-```
-
-<!-- 例 89：微型商店（by @NanoBanana_labs） -->
-### 例89：[微型商店](https://x.com/NanoBanana_labs/status/1966791308321910922)（by [@NanoBanana_labs](https://x.com/NanoBanana_labs)）
-
-| 输出 |
-|:---:|
-|<img src="images/case89/output.png" width="300" alt="输出结果"> |
-
-**提示词:**
-
-```
-[品牌] 的微型立体模型店。屋顶由超大的 [产品] 制成，窗户上方是巨大的 [品牌] 标识，摊主正在向顾客递上 [产品]，地面上覆盖着许多 [产品]。手工软陶造型，摄影棚微距照片，柔和的光线，浅景深，竖屏 3:4
-```
-> [!NOTE]
-> **将 [方括号] 中的文字改为您需要的产品**
-
-<!-- 例 90：成为Vtuber（by @AI_Kei75） -->
-### 例90：[成为Vtuber](https://x.com/AI_Kei75/status/1967490141578236329)（by [@AI_Kei75](https://x.com/AI_Kei75)）
-
-| 输入 | 输出 |
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case90/input.png" width="300" alt="输入图片"> |<img src="images/case90/output.png" width="300" alt="输出结果"> |
+| <img src="images/case77/input.png" width="300" alt="Input image"> | <img src="images/case77/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить референсное изображение.
 
-**提示词:**
+**Промпт:**
 
 ```
-使用原图创建一个虚拟的Vtuber及其直播画面。
-Vtuber的发型和服装将忠实还原原图。
-Vtuber的画面为2.5D画质，无需完美还原原图风格，但需要适度的立体感。
-Vtuber的表情和姿势可以与原图有所差异。请让Vtuber手持游戏手柄。
-仅将Vtuber的上半身放置在屏幕右下方。将正在游玩的游戏直播画面放置在屏幕中央。将聊天画面放置在屏幕左侧。
-游戏画面的屏幕比例设置为较大，Vtuber的上半身显示较小。
-完全忽略原图的背景和姿势。
-在屏幕的上下添加虚拟的直播平台和浏览器UI。
-生成图像的纵横比与原始图像的纵横比无关。
+Используя персонажа с Изображения 2, сгенерируй [x] стикеров-эмодзи на основе различных поз с Изображения 1.
 ```
 
-<!-- 例 91：车站电影海报（by @AI_Kei75） -->
-### 例91：[车站电影海报](https://x.com/AI_Kei75/status/1967498630467625127)（by [@AI_Kei75](https://x.com/AI_Kei75)）
+> [!NOTE]  
+> **Замените текст в [квадратных скобках] на желаемое количество стикеров-эмодзи**
 
-| 输入 | 输出 |
+<!-- Example 78: Restore Partially Eaten Food (by @googlejapan) -->
+### Пример 78: [Восстановление частично съеденной еды](https://x.com/googlejapan/status/1965762180688584916) (от [@googlejapan](https://x.com/googlejapan))
+
+| Ввод | Вывод |
 |:---:|:---:|
-| <img src="images/case91/input.png" width="300" alt="输入图片"> |<img src="images/case91/output.png" width="300" alt="输出结果"> |
+| <img src="images/case78/input.png" width="300" alt="Input image"> | <img src="images/case78/output.png" width="300" alt="Output result"> |
 
-**输入:** 需上传一张参考图像
+**Ввод:** Необходимо загрузить референсное изображение.
 
-**提示词:**
+**Промпт:**
 
 ```
-使用原图制作电影海报。电影类型将根据原图的氛围确定。
-无论原图是动画还是真人版，原图的风格和角色设计都将尽可能完美地保留。但姿势和表情可能会根据海报设计进行调整。此外，还可能添加其他人物和物体。
-最终生成的图像将具有照片级真实感。但海报设计除外，因为它将基于原图进行制作。
-海报所贴日本车站地下通道的场景将以逼真的图像进行重现，并添加穿过地下通道的人物。
-海报的反射角度经过调整，使其看起来更加逼真。
+Восстанови этот наполовину съеденный [XX] до его первоначального, нетронутого состояния.
 ```
 
-## 🙏 Acknowledge
+> [!NOTE]  
+> **Замените текст в [квадратных скобках] на название еды**
 
-本仓库受[awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images)的启发而创建。仓库中的各个例子依赖于AI社区中人们的分享，请允许我们向所有case的贡献者表示真挚的感谢。
+<!-- Example 79: Fighting Game Interface Creation (by @NanoBanana_labs) -->
+### Пример 79: [Создание интерфейса файтинга](https://x.com/NanoBanana_labs/status/1965827209534517654) (от [@NanoBanana_labs](https://x.com/NanoBanana_labs))
 
-感谢以下用户分享的惊艳的作品，大家也可以前往他们的主页了解更多：
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case79/input.png" width="300" alt="Input image"> | <img src="images/case79/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Создай экшен-сцену в движении, где оба объекта находятся в фокусе, с ракурсом в три четверти, в боевых стойках. Они находятся в одной кинематографической сцене. Убери линию по центру, заменив ее размытыми разрушающимися руинами в фиолетовом инопланетном мире на заднем плане. Сцена снята на рассвете. Современные полоски здоровья из файтинга MORDON V'S DEATHSEED. суперудар. Экранные эффекты в стиле HUD. Добавь миниатюру каждого персонажа к полоскам здоровья. интенсивные блики!
+```
+
+<!-- Example 80: Model Cross-Section (by @old_pgmrs_will) -->
+### Пример 80: [Модель в разрезе](https://x.com/old_pgmrs_will/status/1966053092371444029) (от [@old_pgmrs_will](https://x.com/old_pgmrs_will))
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case80/input.png" width="300" alt="Input image"> | <img src="images/case80/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Создай визуализацию этого автомобиля в разрезе, покажи нетронутый экстерьер с одной стороны и открытый двигатель + сиденья с другой. Сохрани точные пропорции и реалистичные детали.
+```
+
+<!-- Example 81: Pirate Wanted Poster (by @AI_Kei75) -->
+### Пример 81: [Плакат о розыске пирата](https://x.com/old_pgmrs_will/status/1966053092371444029) (от [@AI_Kei75](https://x.com/AI_Kei75))
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case81/input.png" width="300" alt="Input image"> | <img src="images/case81/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Используя оригинальное изображение, воссоздай плакат о розыске пирата, нарисованный на пергаменте.
+Коричневый монохром, с текстурой состаренного пергамента.
+Сохрани стиль и дизайн персонажа оригинального изображения до мельчайших деталей и вставь его крупным планом вверху плаката.
+Крупный план лица. Надень на персонажа пиратскую шляпу.
+Напиши сумму вознаграждения внизу плаката. Сумма вознаграждения будет случайной, и будет использоваться вымышленная денежная единица.
+Под суммой вознаграждения напиши преступление мелкими буквами. Используй вымышленный язык. Английские или китайские иероглифы использовать нельзя.
+```
+
+<!-- Example 82: Merchandise Display Shelf (by @tokyo_Valentine) -->
+### Пример 82: [Полка с мерчандайзом](https://x.com/tokyo_Valentine/status/1966888938838298727) (от [@tokyo_Valentine](https://x.com/tokyo_Valentine))
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case82/input.png" width="300" alt="Input image"> | <img src="images/case82/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Удали фон с этой иллюстрации и преврати ее в мерчандайз, например, фигурки.
+Изображение: Фотореалистичное
+Местоположение:
+Полки вымышленного круглосуточного магазина, которого не существует в Японии. Милая, поп-атмосфера дополняется аккуратно расставленным мерчандайзом с иллюстрацией. Интерьер магазина сказочно яркий и особенный, создающий особое пространство, которое волнует фанатов.
+
+Персонажи:
+Этот мерчандайз выставлен на полках.
+
+Ассортимент мерчандайза:
+Две большие, примерно 50 см длиной, фигурки в центре экрана (для эффектной демонстрации)
+Акриловые стенды (деформированные версии оригинального арта)
+
+Чиби-фигурки (деформированные версии оригинального арта)
+
+Подушки-дакимакуры (большие принты для яркого присутствия)
+
+Пазлы (визуальное искусство персонажей)
+
+Канцелярские товары (блокноты, ручки, прозрачные папки и т.д., деформированные версии оригинального арта)
+
+Картонные фигурки (деформированные версии оригинального арта)
+
+Плюшевые игрушки (деформированные версии оригинального арта)
+
+Выкладка:
+Мерчандайз аккуратно расставлен на полках, сохраняя атмосферу круглосуточного магазина, но при этом наполняя пространство любовью к персонажам. Они расставлены так, что фанатки-подростки не могут удержаться от желания их взять.
+
+Общий тон:
+Сказочное пространство для продажи мерчандайза. Милота и поп-стиль на первом плане, и, несмотря на то, что это круглосуточный магазин, он представлен как "святое место для фанатской деятельности".
+Разрешение: 4K, 4000px: 3000px
+```
+
+<!-- Example 83: Comic Convention Booth (by @tokyo_Valentine) -->
+### Пример 83: [Стенд на конвенте комиксов](https://x.com/tokyo_Valentine/status/1967174466636792287) (от [@tokyo_Valentine](https://x.com/tokyo_Valentine))
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case83/input.png" width="300" alt="Input image"> | <img src="images/case83/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Сотри фон и замени персонажей следующим:
+
+Косплееры и товары с персонажами
+
+Персонаж/Мотив:
+Товары с персонажами на основе иллюстрации
+
+Прическа, глаза и внешность:
+(Сосредоточься на мерчандайзе, а не на самом персонаже.)
+
+Главный персонаж: Косплеер держит фигурку в центре экрана.
+
+Местоположение:
+Comic Market (мероприятие по продаже додзинси).
+Просторный стенд заполнен мерчандайзом, расставленным на столах и полках. Атмосфера наполнена волнением и предвкушением.
+
+Ассортимент мерчандайза:
+• Большая, примерно 100 см, фигурка выставлена в центре стенда, создавая привлекающий внимание дисплей.
+• Персонаж отображается на 80-дюймовой ЖК-панели.
+• Акриловые стенды
+• Чиби-фигурки (деформированные)
+• Подушки для тела (большой принт персонажа в полный рост)
+• Пазлы (с использованием арта персонажа)
+• Канцелярские товары (блокноты, ручки, прозрачные папки и т.д.)
+• Коврики для стола
+• Плюшевые игрушки (деформированные)
+Выставка/Выкладка:
+• Товары аккуратно расставлены по всему стенду, создавая единый вид.
+• Используя столы и полки, напоминающие о мероприятиях по продаже додзинси, расположение побуждает фанатов брать товары.
+• На фоне энергии посетителей место представлено как особое "святилище для фанатов".
+Общий тон:
+Сказочное пространство для продаж.
+Подчеркивая милоту и поп-стиль, пространство вызывает уникальный энтузиазм додзин-мероприятий и ощущение "святилища для фанатской деятельности".
+Толпы людей.
+
+Качество изображения:
+Фотореалистичное, 4K (4000px x 3000px)
+```
+
+<!-- Example 84: Line Art to Doodle Drawing (by @hAru_mAki_ch) -->
+### Пример 84: [Преобразование контурного рисунка в детский рисунок](https://x.com/hAru_mAki_ch/status/1966877088365113722) (от [@hAru_mAki_ch](https://x.com/hAru_mAki_ch))
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case84/input.png" width="300" alt="Input image"> | <img src="images/case84/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Сделай так, чтобы загруженная книжная иллюстрация выглядела, как будто ее нарисовал пятилетний ребенок.
+```
+
+<!-- Example 85: Contemporary Art Exhibition Space (by @UNIBRACITY) -->
+### Пример 85: [Выставочное пространство современного искусства](https://x.com/UNIBRACITY/status/1967129632093991164) (от [@UNIBRACITY](https://x.com/UNIBRACITY))
+
+| Пример |
+|:---:|
+| <img src="images/case85/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Авангардное выставочное пространство современного искусства, тематически основанное на референсном изображении.
+Весь выставочный зал (20,0 м x 20,0 м x 8,0 м) объединяет архитектуру, освещение, пол, стены, 
+и потолок в единое художественное выражение.
+
+В дальнем конце зала стоит массивная стена шириной 20 метров и высотой 8 метров. 
+В центре этой стены тема с референсного изображения представлена в монументальной художественной форме. 
+Изображение яркое и трехмерное, поднимающееся к зрителю, становясь фокусом всего пространства.
+
+Под центральной стеной установлена сгенерированная системой табличка с названием выставки. 
+Название должно быть абстрактным, символическим и поэтичным, и должно отражать современное произведение искусства. 
+Цена не указывается.
+
+Пол выполнен из полированного гранита с коэффициентом отражения 0,35–0,40. 
+Узоры и свет, заимствованные из референсного изображения, каскадом проходят по поверхности работы, 
+резонируя со всем пространством, как будто отвечая на шаги посетителей. 
+Тактильная плитка выполнена в похожем цвете, бесшовно интегрирована, но имеет высоту всего 5 мм, обеспечивая четкую текстуру. 
+Работа простирается по прямой линии от входа до стены, создавая точку паузы перед произведением искусства. 
+После просмотра посетители естественным образом направляются к проему с правой стороны (3 м в ширину x 3 м в высоту). 
+В экстренных случаях аварийное освещение на уровне пола обеспечивает освещенность в 1 люкс.
+
+Левая и правая стены, а также потолок по-своему переосмысливают абстрактный элемент из референсного изображения, 
+превращая все пространство в единое произведение искусства. 
+Поток цвета, формы и света объединяет опыт в единое художественное целое.
+
+Вместимость посетителей ограничена 8–25 людьми. 
+Все посетители смотрят на большую стену, двигаясь по прямой линии и останавливаясь в designated точке. 
+Никто не оборачивается к входу. 
+Только один сотрудник находится у правого входа рядом со стеной. 
+Все лица размыты для обеспечения анонимности.
+
+Композиция стабильна, с центральной точкой схода, всегда совпадающей с центром стены. 
+Вертикальность находится в пределах ±0,5°. 
+Отражения на полу точны, человеческие фигуры выглядят естественно. 
+На руках всегда пять пальцев, глаза симметричны в пределах 3%. 
+Ткани остаются плоскими без деформации.
+
+Запрещенный контент: Элементы, не связанные с референсным изображением, отсутствующая или сломанная тактильная плитка, 
+посетители, смотрящие на вход, логотипы или водяные знаки, переполненность, игрушечный блеск, 2D-плоские проекции, 
+неоновое свечение, бирюзово-оранжевые тона, перенасыщенность, коллапс перспективы, несоответствующие отражения, 
+анатомические аномалии, лишние конечности, искаженные лица, чрезмерные контуры, полосы или виньетирование.
+
+DoD: Все пространство будет современным произведением искусства, сосредоточенным на теме референсного изображения, 
+с внутренней структурой, формирующей единый опыт. 
+Тактильная плитка идеально синхронизируется с потоком света, создавая четкую точку паузы. 
+Посетители погружены в само пространство, и даже при воспроизведении SSIM останется стабильным на уровне 0,95 или выше.
+```
+
+<!-- Example 86: Dark Gothic Tarot Card (by @ImperfectEngel) -->
+### Пример 86: [Темная готическая карта Таро](https://x.com/ImperfectEngel/status/1961833518163481001) (от [@ImperfectEngel](https://x.com/ImperfectEngel))
+
+| Пример |
+|:---:|
+| <img src="images/case86/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Сгенерируй темную готическую карту Таро с моим изображением. Включи [“AI-художник - Шира”] и [кофе, белый пушистый толстый кот с розовым бантом, ноутбук, телефон, наушники] в качестве символов, с мрачными тенями, сложными готическими рамками и мистической атмосферой темного фэнтези.
+```
+
+> [!NOTE]  
+> **Замените текст в [квадратных скобках] на желаемые настройки**
+
+<!-- Example 87: Black and White Evolution Chart (by @ZHO_ZHO_ZHO) -->
+### Пример 87: [Черно-белая схема эволюции](https://x.com/ZHO_ZHO_ZHO/status/1965816445008548213) (от [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+| Вывод |
+|:---:|
+| <img src="images/case87/output.png" width="300" alt="Output result"> |
+
+**Промпт:**
+
+```
+Сгенерируй схему эволюционного развития в минималистичном черно-белом стиле, 
+показывающую эволюцию от самых ранних обезьян до людей и, наконец, до банана.
+```
+
+<!-- Example 88: Glass Bottle Souvenir (by @NanoBanana_labs) -->
+### Пример 88: [Сувенир в стеклянной бутылке](https://x.com/NanoBanana_labs/status/1967191346017673334) (от [@NanoBanana_labs](https://x.com/NanoBanana_labs))
+
+| Пример |
+|:---:|
+| <img src="images/case88/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Коллекционная фигурка персонажа с фотографии в масштабе 1/7, выполненная в высокореалистичном стиле. Фигурка помещена в детализированное пляжное окружение с песком, ракушками и легкими океанскими волнами. Вся витрина с игрушкой заключена в прозрачную сувенирную стеклянную бутылку, что придает ей вид премиальной миниатюрной диорамы, с реалистичным освещением и тенями.
+```
+
+<!-- Example 89: Miniature Store (by @NanoBanana_labs) -->
+### Пример 89: [Миниатюрный магазин](https://x.com/NanoBanana_labs/status/1966791308321910922) (от [@NanoBanana_labs](https://x.com/NanoBanana_labs))
+
+| Вывод |
+|:---:|
+| <img src="images/case89/output.png" width="300" alt="Output result"> |
+
+**Промпт:**
+
+```
+Крошечный диорамный магазин для [БРЕНД]. Крыша сделана из огромного [ПРОДУКТА], большая вывеска с логотипом [БРЕНД] над окном, продавец передает [ПРОДУКТ] покупателю, земля покрыта множеством [ПРОДУКТОВ]. Вид ручной работы из полимерной глины, студийное макрофото, мягкий свет, малая глубина резкости, вертикальное соотношение 3:4
+```
+
+> [!NOTE]  
+> **Замените текст в [квадратных скобках] на желаемый продукт**
+
+<!-- Example 90: Become a Vtuber (by @AI_Kei75) -->
+### Пример 90: [Стать Vtuber-ом](https://x.com/AI_Kei75/status/1967490141578236329) (от [@AI_Kei75](https://x.com/AI_Kei75))
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case90/input.png" width="300" alt="Input image"> | <img src="images/case90/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Создай вымышленного Vtuber-а и его экран стрима, используя оригинальное изображение.
+Прическа и одежда Vtuber-а будут точно воспроизведены с оригинального изображения.
+Изображение Vtuber-а будет в стиле 2.5D, поэтому не обязательно идеально воспроизводить стиль оригинального изображения. Также необходимо умеренное ощущение трехмерности.
+Выражение лица и поза Vtuber-а могут быть изменены по сравнению с оригинальным изображением. Пусть Vtuber держит игровой контроллер.
+Размести только верхнюю часть тела Vtuber-а в правом нижнем углу экрана. Размести экран стрима игры в центре экрана. Размести экран чата в левой части экрана.
+Соотношение сторон экрана установлено так, чтобы игровой экран был больше, а верхняя половина тела Vtuber-а отображалась меньше.
+Фон оригинального изображения полностью игнорируется, как и поза на оригинальном изображении.
+Добавь вымышленную стриминговую платформу и интерфейс браузера вверху и внизу экрана.
+Соотношение сторон сгенерированного изображения не зависит от соотношения сторон оригинального изображения.
+```
+
+<!-- Example 91: Train Station Movie Poster (by @AI_Kei75) -->
+### Пример 91: [Постер фильма на вокзале](https://x.com/AI_Kei75/status/1967498630467625127) (от [@AI_Kei75](https://x.com/AI_Kei75))
+
+| Ввод | Вывод |
+|:---:|:---:|
+| <img src="images/case91/input.png" width="300" alt="Input image"> | <img src="images/case91/output.png" width="300" alt="Output result"> |
+
+**Ввод:** Необходимо загрузить референсное изображение.
+
+**Промпт:**
+
+```
+Создай постер фильма, используя оригинальное изображение. Жанр фильма будет определен на основе атмосферы оригинального изображения.
+Независимо от того, является ли оригинальное изображение аниме или живым действием, стиль и дизайн персонажа оригинального изображения будут сохранены как можно точнее. Однако позы и выражения могут быть изменены в соответствии с дизайном постера. В это время также могут быть добавлены другие люди и объекты.
+Конечное сгенерированное изображение будет фотореалистичным. Это не относится к дизайну постера, так как он будет основан на оригинальном изображении.
+Пейзаж подземного перехода японской станции, где размещен постер, будет воссоздан в реалистичном изображении. Будут добавлены люди, проходящие через подземный переход.
+Отражение постера наклонено, чтобы он выглядел более реалистично.
+```
+
+
+## 🙏 Благодарности
+
+Различные примеры в этом репозитории основаны на материалах, которыми поделилось AI-сообщество. Позвольте нам выразить искреннюю благодарность всем, кто предоставил эти примеры.
+
+Спасибо следующим пользователям за то, что поделились своими потрясающими работами. Вы также можете посетить их профили, чтобы узнать больше:
 
 - [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)
 - [@tokumin](https://x.com/tokumin)
@@ -1775,9 +1807,8 @@ Vtuber的表情和姿势可以与原图有所差异。请让Vtuber手持游戏�
 - [@AI_Kei75](https://x.com/AI_Kei75)
 - [@tokyo_Valentine](https://x.com/tokyo_Valentine)
 - [@ImperfectEngel](https://x.com/ImperfectEngel)
+*Мы не можем гарантировать, что все примеры исходят от первоначальных авторов. Если это доставляет вам неудобства, пожалуйста, свяжитесь с нами для внесения изменений.*
 
-*我们不能保证所有案例都来自于原始作者，如果对您造成困扰，请随时与我们联系修改。*
-
-我们收集的案例无法覆盖所有可能的应用场景，如果大家有其他更有意思的发现🔍，欢迎大家与我们联系以展示更多创意📧！
+Собранные нами примеры не могут охватить все возможные сценарии применения. Если у вас есть другие интересные находки 🔍, мы будем рады, если вы свяжетесь с нами, чтобы продемонстрировать больше креативности 📧!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=PicoTrex/Awesome-Nano-Banana-images&type=Date)](https://www.star-history.com/#PicoTrex/Awesome-Nano-Banana-images&Date)
